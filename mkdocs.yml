@@ -43,7 +43,7 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: amber
+    primary: black
   favicon: static/favicon.png
   logo: static/favicon.png
   features:
