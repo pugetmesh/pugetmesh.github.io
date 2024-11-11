@@ -2,7 +2,7 @@ site_name: Puget Mesh
 site_author: PugetMesh.org
 site_description: "PugetMesh: Supporting Mesh networks in the Puget Sound Region"
 copyright: © Creative Commons Attribution-ShareAlike 4.0 International License
-site_url: https://pugetmesh.github.io/
+site_url: https://pugetmesh.org
 repo_url: https://github.com/pugetmesh/pugetmesh.github.io
 edit_uri: edit/main/docs/
 nav:
