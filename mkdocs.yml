@@ -45,8 +45,7 @@ theme:
     scheme: slate
     primary: black
   favicon: static/favicon.png
-  icon:
-    logo: static/favicon.png
+  logo: static/favicon.png
   features:
     - navigation.tabs
     - navigation.tabs.sticky
