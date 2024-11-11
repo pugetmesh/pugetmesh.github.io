@@ -41,9 +41,12 @@ markdown_extensions:
 
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: black
   favicon: static/favicon.png
   icon:
-    logo: fontawesome/solid/mountain
+    logo: static/favicon.png
   features:
     - navigation.tabs
     - navigation.tabs.sticky
