@@ -1,0 +1,61 @@
+site_name: PugetMesh.org
+site_author: PugetMesh.org
+site_description: "PugetMesh: Supporting Mesh networks in the Puget Sound Region"
+copyright: © Creative Commons Attribution-ShareAlike 4.0 International License
+site_url: https://pugetmesh.org
+repo_url: https://github.com/pugetmesh/pugetmesh.github.io
+edit_uri: edit/main/docs/
+nav:
+  - Home: index.md
+  - About: about.md
+  - AREDN: aredn/index.md
+  - Meshtastic: meshtastic/index.md
+
+plugins:
+  - search
+  - social
+  - git-revision-date-localized:
+      enable_creation_date: false
+      type: date
+  - git-committers:
+      repository: pugetmesh/pugetmesh.github.io
+      branch: main
+
+markdown_extensions:
+  - toc
+  - attr_list
+  - tables
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+theme:
+  name: material
+  favicon: static/favicon.png
+  icon:
+    logo: fontawesome/solid/mountain
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+    - content.action.view
+    - content.action.edit
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/ANvUg3AyZt
+    - icon: fontawesome/brands/github 
+      link: https://github.com/pugetmesh
+    - icon: fontawesome/brands/instagram 
+      link: https://www.instagram.com/pugetmesh
