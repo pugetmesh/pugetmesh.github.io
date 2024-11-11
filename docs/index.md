@@ -6,7 +6,7 @@ status: new
 Puget Mesh: Supporting AREDN, Meshtastic, and other Mesh networks in the Puget Sound Region. 
 
 
-<img src="media/PugetMeshLogo.svg" alt="PugetMesh Logo" width="500">
+<img src="static/PugetMeshLogo.png" alt="PugetMesh Logo" width="500">
 
 In-Person Meetup November 23rd 2024 at the [Shoreline Library](https://maps.app.goo.gl/B4RmdBR16wtdEE3Q7). 
 ![November Meshtastic Meetup](media/23Nov2024_Meshtastic_Meetup.png)
