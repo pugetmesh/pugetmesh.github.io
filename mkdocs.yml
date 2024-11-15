@@ -50,7 +50,9 @@ theme:
   logo: static/favicon.png
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.instant
+    - navigation.instant.prefetch
     - toc.integrate
     - content.action.view
     - content.action.edit
