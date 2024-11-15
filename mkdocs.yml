@@ -24,6 +24,7 @@ plugins:
 markdown_extensions:
   - toc
   - attr_list
+  - md_in_html
   - tables
   - pymdownx.critic
   - pymdownx.caret

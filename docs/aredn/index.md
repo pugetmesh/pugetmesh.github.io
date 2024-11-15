@@ -1,9 +1,9 @@
----
-status: new
----
-
 # AREDN
-The [Amateur Radio Emergency Data Network](arednmesh.org) (AREDN®) mesh provides a way for Amateur Radio operators to create high-speed ad hoc Data Networks for use in Emergency and service-oriented communications. Specifially, AREDN is the software that runs on top of consumer and commercial-grade WiFi hardware in place of the factory firmware. This new software takes care of the considerations required to setup and manage a mesh network with no internet and and a focus on Emergency Communications (EmComm). While it is possible to legally use AREDN without a ham radio license, the frequencies and power levels used in the Puget Sound region do require a license. 
+![AREDN Mesh Logo](/media/AREDN-Logo.png){ align=left }
+The [Amateur Radio Emergency Data Network](arednmesh.org) (AREDN®) mesh provides a way for Amateur Radio operators to create high-speed ad hoc Data Networks for use in Emergency and service-oriented communications. 
+
+Specifially, AREDN is the software that runs on top of consumer and commercial-grade WiFi hardware in place of the factory firmware. This new software takes care of the considerations required to setup and manage a mesh network with no internet and and a focus on Emergency Communications (EmComm). While it is possible to legally use AREDN without a ham radio license, the frequencies and power levels used in the Puget Sound region do require a license. 
+
 
 
 ## Why AREDN?
