@@ -15,8 +15,8 @@ You may already own a supported hardware device. Check [the comprehensive suppor
 
 ## Uses
 There are two primary ways to build an AREDN mesh:
-1) Proactive (Before being needed)
-2) Reactive (After they are needed)
+1. Proactive (Before being needed)
+2. Reactive (After they are needed)
 
 ### Proactive
 Proactive Mesh networks are setup today, ahead of their need for Emergency Communications. An example would be what is setup today (2024) in West Seattle, and what is found on the [Aredn Mesh Map](http://usercontent.arednmesh.org/K/5/K5DLQ/livemap2.html#7/46.604/-120.146). These networks can grow very large and have connectivity between many links that are very far away via highly directional antennas.
