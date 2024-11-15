@@ -15,6 +15,7 @@ You may already own a supported hardware device. Check [the comprehensive suppor
 
 ## Uses
 There are two primary ways to build an AREDN mesh:
+
 1. Proactive (Before being needed)
 2. Reactive (After they are needed)
 
