@@ -51,11 +51,14 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.path
     - navigation.instant
     - navigation.instant.prefetch
     - toc.integrate
+    - toc.follow
     - content.action.view
     - content.action.edit
+    - content.code.copy
 
 extra:
   social:
