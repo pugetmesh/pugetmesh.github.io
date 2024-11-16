@@ -18,7 +18,7 @@ Meshtastic devices can be connected to the internet and exchange information (me
 
 The vast majority of us have chosen not to use MQTT with meshtastic in the spirit of embracing the RF mesh itself. However, we do utilize our own MQTT server for exchanging position data which is plotted on a map. This is helpful for understanding where the mesh needs to grow, and is helpful for onboarding new users.
 
-There are a few public maps available showing nodes (that choose to share their position). We use [https://meshtastic.davekeogh.com/](https://meshtastic.davekeogh.com/) which currently looks something like this:
+There are a few public maps available showing nodes (that choose to share their position) but we use [https://meshtastic.davekeogh.com/](https://meshtastic.davekeogh.com/).
 
 
 
