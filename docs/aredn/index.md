@@ -41,6 +41,7 @@ It is important to practice both of these deployment types, building out a mesh 
 
 
 ## Other AREDN-related groups in the area:
+- [https://mbarc.groups.io/g/main](https://mbarc.groups.io/g/main)
 - [http://www.clallammesh.k7wwp.net/](http://www.clallammesh.k7wwp.net/)
 - [https://w7aw.org/](https://w7aw.org/)
 - [https://groups.io/g/nwmesh](https://groups.io/g/nwmesh)
