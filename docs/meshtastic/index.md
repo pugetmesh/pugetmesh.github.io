@@ -3,18 +3,20 @@
 
 Meshtastic® is a project that lets you use inexpensive LoRa radios as a long range off-grid communicator for areas without reliable cellular service. These radios are great for hiking, skiing, paragliding - essentially any hobby where you don't have reliable internet access. Each member of the mesh can send and view text messages and enable optional GPS based location features.
 
-The radios automatically create a mesh to forward packets as needed, so everyone in the group can receive messages from even the furthest member. The radios will optionally work with your phone, but no phone is required.
+The radios automatically create a mesh to forward packets as needed, so everyone in the group can receive messages from even the furthest member. The radios will optionally work with your phone, but no phone is required. Visit [Verified Keys](/docs/meshtastic/verifiedkeys.md) to verify users on the mesh. 
 
 ## Joining
 Are you interested in joining the mesh? You will need to purchase a LoRa radio from the [Supported Hardware](https://meshtastic.org/docs/hardware/devices/) list which start at about $35. Outside of the mesh, we are most active on our public [Discord Server](https://discord.gg/ANvUg3AyZt).
 
-Puget Mesh node installed at Maple Leaf in Seattle. 
+Puget Mesh node installed at Maple Leaf in Seattle:
+
 [![Puget Mesh Logo](/media/MLA_Node.jpg)](/media/MLA_Node.jpg)
 
 ### MQTT and Maps
 Meshtastic devices can be connected to the internet and exchange information (messages, data, telemetry, etc) by using a MQTT server. The vast majority of us have chosen not to use MQTT with meshtastic in the spirit of embracing the RF mesh itself. However, we do utilize our own MQTT server for exchanging position data which is plotted on a map. This is helpful for understanding where the mesh needs to grow, and is helpful for onboarding new users.
 
 There are a few public maps available showing nodes (that choose to share their position). We use [https://meshtastic.davekeogh.com/](https://meshtastic.davekeogh.com/) which currently looks something like this:
+
 [![Dave Keogh Meshtastic Map](/media/11Nov2024_MapSShot.png){ width="500" }](https://meshtastic.davekeogh.com/?lat=47.73284666107599&lng=237.66448974609378&zoom=9)
 
 
@@ -38,3 +40,7 @@ It is important to know that Meshtastic is under rapid development, and is not y
 - [Austin Mesh](https://www.austinmesh.org/join/) is a good resource for Meshtastic information.
 
 Come join our [Discord](https://discord.gg/ANvUg3AyZt)
+
+## Other Groups
+A large list of Meshtastic groups can be found [here on Meshtastic.org](https://meshtastic.org/docs/community/local-groups/#washington)
+

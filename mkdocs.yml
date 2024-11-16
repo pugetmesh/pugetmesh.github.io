@@ -15,6 +15,7 @@ nav:
 plugins:
   - search
   - social
+  - table-reader
   - git-revision-date-localized:
       enable_creation_date: false
       type: date
