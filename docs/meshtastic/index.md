@@ -20,16 +20,13 @@ The vast majority of us have chosen not to use MQTT with meshtastic in the spiri
 
 There are a few public maps available showing nodes (that choose to share their position) but we use [https://meshtastic.davekeogh.com/](https://meshtastic.davekeogh.com/).
 
-
-
-
 ## Best Practices
 There are a lot of configuration options and it can be difficult to know where to start. 
 ### TL;DR;
 - **Role**: Client (Router modes are reserved for towers and mountains)
 - **Hop Count**: 3
-- **Broadcast Intervals(info, position,, neighbors, telemetry)**: 3hours (10800 seconds)
-- **Leave your node running for 24 hours the first time to get well connected to the mesh**
+- **Broadcast Intervals(info, position, telemetry)**: 3hours (10800 seconds)
+- **Leave your node running for 24 hours the first time to get well connected to the mesh.**
 
 [Configuration Recommendations](config)
 
@@ -44,6 +41,6 @@ It is important to know that Meshtastic is under rapid development, and is not y
 
 Come join our [Discord](https://discord.gg/ANvUg3AyZt)
 
-## Other Groups
-A large list of Meshtastic groups can be found [here on Meshtastic.org](https://meshtastic.org/docs/community/local-groups/#washington)
+## Other Meshtastic-related groups in the area
+A large list of Meshtastic groups can be found [on Meshtastic.org](https://meshtastic.org/docs/community/local-groups/#washington)
 
