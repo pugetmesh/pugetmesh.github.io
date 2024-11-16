@@ -13,11 +13,14 @@ Puget Mesh node installed at Maple Leaf in Seattle:
 [![Puget Mesh Logo](/media/MLA_Node.jpg)](/media/MLA_Node.jpg)
 
 ### MQTT and Maps
-Meshtastic devices can be connected to the internet and exchange information (messages, data, telemetry, etc) by using a MQTT server. The vast majority of us have chosen not to use MQTT with meshtastic in the spirit of embracing the RF mesh itself. However, we do utilize our own MQTT server for exchanging position data which is plotted on a map. This is helpful for understanding where the mesh needs to grow, and is helpful for onboarding new users.
+[![Dave Keogh Meshtastic Map](/media/11Nov2024_MapSShot.png){ width="250", align=left }](https://meshtastic.davekeogh.com/?lat=47.73284666107599&lng=237.66448974609378&zoom=9)
+Meshtastic devices can be connected to the internet and exchange information (messages, data, telemetry, etc) by using a MQTT server. 
+
+The vast majority of us have chosen not to use MQTT with meshtastic in the spirit of embracing the RF mesh itself. However, we do utilize our own MQTT server for exchanging position data which is plotted on a map. This is helpful for understanding where the mesh needs to grow, and is helpful for onboarding new users.
 
 There are a few public maps available showing nodes (that choose to share their position). We use [https://meshtastic.davekeogh.com/](https://meshtastic.davekeogh.com/) which currently looks something like this:
 
-[![Dave Keogh Meshtastic Map](/media/11Nov2024_MapSShot.png){ width="500" }](https://meshtastic.davekeogh.com/?lat=47.73284666107599&lng=237.66448974609378&zoom=9)
+
 
 
 ## Best Practices
