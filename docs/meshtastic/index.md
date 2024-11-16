@@ -41,6 +41,6 @@ It is important to know that Meshtastic is under rapid development, and is not y
 
 Come join our [Discord](https://discord.gg/ANvUg3AyZt)
 
-## Other Groups
+## Other Meshtastic-related groups in the area
 A large list of Meshtastic groups can be found [on Meshtastic.org](https://meshtastic.org/docs/community/local-groups/#washington)
 

@@ -39,9 +39,10 @@ An example Reactive mesh network may look like a local park that has become a co
 
 It is important to practice both of these deployment types, building out a mesh ahead of an incident, and also practicing setting up impromptu deployments in new and unique locations. 
 
-
-## Other AREDN-related groups in the area:
+## Other Local AREDN Groups
 - [MBARC Digital Group](https://mbarc.groups.io/g/digital)
 - [http://www.clallammesh.k7wwp.net/](http://www.clallammesh.k7wwp.net/)
+- [Chilliwack ARC](https://www.chwkarc.ca/)
+- [CECA](http://va7eca.ca/)
 - [https://w7aw.org/](https://w7aw.org/)
 - [https://groups.io/g/nwmesh](https://groups.io/g/nwmesh)
