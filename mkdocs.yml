@@ -10,6 +10,7 @@ nav:
   - AREDN: aredn/index.md
   - Meshtastic: meshtastic/index.md
   - About: about.md
+  - Other: other.md
 
 plugins:
   - search
@@ -64,7 +65,9 @@ extra:
   social:
     - icon: fontawesome/brands/discord 
       link: https://discord.gg/ANvUg3AyZt
-    - icon: fontawesome/brands/github 
-      link: https://github.com/pugetmesh
+    - icon: fontawesome/brands/bluesky 
+      link: https://bsky.app/profile/pugetmesh.org
     - icon: fontawesome/brands/instagram 
       link: https://www.instagram.com/pugetmesh
+    - icon: fontawesome/brands/github 
+      link: https://github.com/pugetmesh
