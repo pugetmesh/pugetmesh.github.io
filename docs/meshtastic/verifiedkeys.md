@@ -5,4 +5,4 @@ To become verified, I will need to meet you in person and you will need to send 
 
 ## Verfied Meshtastic PubKeys
 
-{{ read_csv('/media/verified_pubkeys.csv') }}
+{{ read_csv('/docs/media/verified_pubkeys.csv') }}
