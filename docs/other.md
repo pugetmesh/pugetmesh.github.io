@@ -17,7 +17,7 @@ These lists are a work in progress.
 - [Snohomish Count ACS](https://www.wa7dem.info/)
 - [Seattle ACS](https://www.seattleacs.org/)
 
-## Other Groups and links worth sharing
+## Other Groups and Links
 
 - [PSRG](https://web.psrg.org/)
 - [Mike and Key](https://www.mikeandkey.org/links.php)
