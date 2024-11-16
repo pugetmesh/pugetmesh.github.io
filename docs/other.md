@@ -4,7 +4,9 @@ status: new
 
 # Other Groups in the Area
 
-## ham radio
+These lists are a work in progress.
+
+## Ham Radio
 
 - [hamWAN](https://hamwan.org/)
 - [Cascadia Radio](https://www.cascadiaradio.org/)
