@@ -43,8 +43,6 @@ For example, an AREDN network could be set up to provide network connectivity be
 
 It is important to practice both of these deployment types, building out a mesh ahead of an incident, and setting up impromptu deployments in new and unique locations. 
 
-It is important to practice both of these deployment types, building out a mesh ahead of an incident, and also practicing setting up impromptu deployments in new and unique locations. 
-
 ## Other Local AREDN Groups
 
 - [MBARC Digital Group](https://mbarc.groups.io/g/digital)
