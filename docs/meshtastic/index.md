@@ -23,8 +23,9 @@ There are a few public maps available showing nodes (that choose to share their 
 ## Best Practices
 There are a lot of configuration options and it can be difficult to know where to start. 
 ### TL;DR;
+- **LoRa**: Modem Preset Long_Fast, Frequency slot 20
 - **Role**: Client (Router modes are reserved for towers and mountains)
-- **Hop Count**: 3
+- **Hop Count**: 3 (Everyone can see when you use hop counts over 3)
 - **Broadcast Intervals(info, position, telemetry)**: 3hours (10800 seconds)
 - **Leave your node running for 24 hours the first time to get well connected to the mesh.**
 
@@ -41,6 +42,6 @@ It is important to know that Meshtastic is under rapid development, and is not y
 
 Come join our [Discord](https://discord.gg/ANvUg3AyZt)
 
-## Other Meshtastic-related groups in the area
+## Other Local Meshtastic Groups
 A large list of Meshtastic groups can be found [on Meshtastic.org](https://meshtastic.org/docs/community/local-groups/#washington)
 
