@@ -23,11 +23,15 @@ There are a few public maps available showing nodes (that choose to share their 
 ## Best Practices
 There are a lot of configuration options and it can be difficult to know where to start. 
 ### TL;DR;
-- **LoRa**: Modem Preset Long_Fast, Frequency slot 20
+- **LoRa**: Modem Preset=LONG_FAST, Frequency slot=20 (906.875MHz)
 - **Role**: Client (Router modes are reserved for towers and mountains)
 - **Hop Count**: 3 (Everyone can see when you use hop counts over 3)
 - **Broadcast Intervals(info, position, telemetry)**: 3hours (10800 seconds)
 - **Leave your node running for 24 hours the first time to get well connected to the mesh.**
+
+Alternate Frequency/Preset standardizations for the area:
+- **LoRa**: Modem Preset=MEDIUM_FAST, Frequency slot=45 (913.125MHz)
+- **LoRa**: Modem Preset=SHORT_FAST, Frequency slot=68 (918.875MHz)
 
 [Configuration Recommendations](config)
 
