@@ -14,7 +14,9 @@ You may already own a supported hardware device. Check [the comprehensive suppor
 
 ## Map
 
-[![Dave Keogh Meshtastic Map](/media/AREDN_Mesh_Map_Nov2024SS.png){ width="250", align=left }](http://usercontent.arednmesh.org/K/5/K5DLQ/livemap2.html#9/47.5395/-122.3973)
+In the Puget Sound region we are primarily using 2.4ghz Channel -2 (2.397mhz) with a 10MHZ bandwidth. [HamWAN](https://hamwan.org/) has asked if we can avoid using the 5GHz space where possible since that is what they primarily occupy. 
+
+[![AREDN Mesh Map](/media/AREDN_Mesh_Map_Nov2024SS.png){ width="250", align=left }](http://usercontent.arednmesh.org/K/5/K5DLQ/livemap2.html#9/47.5395/-122.3973)
 If your AREDN node is connected to the internet, it can publish its GPS so the position will appear on the [AREDN Mesh Map](http://usercontent.arednmesh.org/K/5/K5DLQ/livemap2.html#9/47.5395/-122.3973). Consider publishing your location to help us know where to grow the mesh, and what possible routes are already available. 
 
 Additionally there is an [AREDN offline Map submission tool](https://www.arednmesh.org/content/aredn-offline-map-submit-tool-updated) that allows you to share your position on the map without having to connect your node to the internet. If you would like for us to submit your location for you, feel free to reachout and we will make that happen.
