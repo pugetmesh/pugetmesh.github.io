@@ -52,10 +52,10 @@ Commonly, users have a Meshtastic radio paired with their phone via bluetooth, t
 
 ![Meshtastic Bluetooth-LoRa diagram](/media/meshtastic_device-to-device.png)
 
-When users are **not** within range of each other, they can utilize the mesh that meshtastic offers. Your messages do not have to be received directly by another user, they can hop over users of the network until they arrive at their destiation or stop trying. Be sure to review the New User Expectation above if you are a first time user.
+When users are **not** within range of each other, they can utilize the mesh that meshtastic offers. Your messages do not have to be received directly by another user, they can hop over users of the network until they arrive at their destination or stop trying. Be sure to review the New User Expectation above if you are a first time user.
 
 ### Understanding "hops"
-Unforunately, as of V2.5.*, Meshtastic still uses the term "hop" incorrectly. Using the default "hop" limit of 3 actually means you get 4 hops as demonstrated below. It is highly recommended you keep the default hop count unless you are in a special circumstance such as using CLIENT_MUTE in the scenario shown later on.
+Unfortunately, as of V2.5.*, Meshtastic still uses the term "hop" incorrectly. Using the default "hop" limit of 3 actually means you get 4 hops as demonstrated below. It is highly recommended you keep the default hop count unless you are in a special circumstance such as using CLIENT_MUTE in the scenario shown later on.
 
 ![Meshtastic hops diagram](/media/meshtastic_max-hops.png)
 

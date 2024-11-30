@@ -7,7 +7,7 @@ We love chatting on and off of the mesh. We use Discord for nearly all of our co
 
 [![Discord Widget](https://discord.com/api/guilds/1291139029814739084/widget.png?style=banner2)](https://discord.gg/ANvUg3AyZt)
 
-Use the nagivation menu to explore more about each mesh network. 
+Use the navigation menu to explore more about each mesh network. 
 
 
 ## Upcoming Event:

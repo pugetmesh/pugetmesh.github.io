@@ -27,7 +27,7 @@ _If present & desired to be enabled (optional)_
 
 __Enabled:__ `TRUE`
 
-__Pairing Mode:__ `Random PIN` or `Fixed PIN` (if no screen/ screen visble to public: fixed; else either as desired).
+__Pairing Mode:__ `Random PIN` or `Fixed PIN` (if no screen/ screen visible to public: fixed; else either as desired).
 
 __PIN:__ (if fixed) anything but `123456` - remember to change this if using fixed PIN.
 
@@ -64,7 +64,7 @@ _If present & desired to be enabled (optional)_
 
 __Enabled:__ `TRUE`
 
-__Pairing Mode:__ `Random PIN` or `Fixed PIN` (if no screen/ screen visble to public: fixed; else either as desired).
+__Pairing Mode:__ `Random PIN` or `Fixed PIN` (if no screen/ screen visible to public: fixed; else either as desired).
 
 __PIN:__ (if fixed) anything but `123456` - remember to change this if using fixed PIN.
 
