@@ -115,7 +115,7 @@ __Approximate Location:__ Choose a value you are comfortable with.
 ---
 
 ## Add the PugetMesh Channel
-Use [this link]() or QR code to add the channel - be sure to pay attention when adding the channel so you don't replace your current channels.
+Use [this link](https://meshtastic.org/e/?add=true#CiESEIx68aUDqunRAQuS3a91C60aCFBTLU1lc2ghJQIAAAASDwgBOAFABUgBUB5oAcgGAQ) or QR code to add the channel - be sure to pay attention when adding the channel so you don't replace your current channels.
 
 ![PS-Mesh! QR Code](/media/ps-mesh-qr.png)
 
