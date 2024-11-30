@@ -8,14 +8,14 @@ You will need to contact me to arrange a method of verification. This can best b
 
 ## How to Verify Others
 [![Puget Mesh Logo](/media/NodeInfo_Android.png){ width="250", align=left }](/media/NodeInfo_Android.png)
-Ue the table below to verify users on the mesh. You can get the node information via the mobile apps. In Android it is (currently) accessible by selecting "More details" once you click the node short name from the node list tab. 
+Use the table below to verify users on the mesh. You can get the node information via the mobile apps. In Android it is (currently) accessible by selecting "More details" once you click the node short name from the node list tab. 
 
 **Note:** As of November 2024, you can only access public keys for other nodes via the [Meshtastic Command Line Interface](https://meshtastic.org/docs/software/python/cli/). 
 
 </br>
 </br>
 
-## Verfied Meshtastic PubKeys
+## Verified Meshtastic PubKeys
 [Link to verified public key csv File](https://github.com/pugetmesh/pugetmesh.github.io/blob/main/docs/meshtastic/verified_pubkeys.csv)
 
 {{ read_csv('meshtastic/verified_pubkeys.csv') }}
