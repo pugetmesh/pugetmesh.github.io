@@ -10,7 +10,10 @@
 
 ```sh
 # create a venv at project root with name of {path}
-source .venv/{path} # will be gitignored
+python3 -m venv {path} # will be gitignored
+source {path}/bin/activate # prompt prefix changes to named venv
+
+# install prereqs
 pip install mkdocs
 pip install -r requirements.txt
 pip install mkdocs-material
@@ -22,7 +25,7 @@ pip install mkdocs-material
 mkdocs serve
 ```
 
-changes made in `docs/` will be reflected in the browser session.
+Changes made to files in `docs/` will be reflected in the browser session.
 
 ## References
 
