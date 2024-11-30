@@ -1,6 +1,6 @@
 # PugetMesh.org
 
-PugetMesh GitHub Pages.
+Puget Mesh GitHub Pages.
 
 Using Material for MKDocs and bootstrapped with mtnme.sh. Thank you.
 
