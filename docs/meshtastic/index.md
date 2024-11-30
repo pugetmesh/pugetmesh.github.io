@@ -14,6 +14,27 @@ Puget Mesh node installed at Maple Leaf in Seattle:
 
 **Note**: Node names beginning with "PugetMesh.org" are not actively monitored so a direct message reply is unlikely.
 
+## Weekly Net
+Every Monday evening at 7pm we have our weekly net on the public default LongFast channel, on the default LONG_FAST freqency slot 20. Currently the [following nodes are confirmed](/meshtastic/verifiedkeys/) net control operators.
+- KK4GKF
+
+**Net Control Guide**
+
+At 7pm please send the following message:
+
+`##### Welcome to the Puget Mesh Net! #####
+Every Monday at 7pm. Please check in with:
+"Hello KK4GKF, this is <my_name> in <my_location>"
+I will acknowledge all check-ins that I receive.`
+
+Respond to every check-in that you receive and include their name and location.
+
+`KK4GKF (Net Control) received check-in from <their_name> in <location>.`
+
+It may feel redundant to include names in the messages, but this ensures all parties have the node name available. Node lists typically only remember the 100 most recent node names and this is easy to exceed in high mesh-density areas.
+
+At the end of the net, send your results to the meshtastic discord channel (list of who was heard, their location, your location).
+
 ### MQTT and Maps
 [![Dave Keogh Meshtastic Map](/media/11Nov2024_MapSShot.png){ width="250", align=left }](https://meshtastic.davekeogh.com/?lat=47.73284666107599&lng=237.66448974609378&zoom=9)
 Meshtastic devices can be connected to the internet and exchange information (messages, data, telemetry, etc) by using a MQTT server. 
