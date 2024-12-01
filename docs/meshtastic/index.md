@@ -8,9 +8,8 @@ The radios automatically create a mesh to forward packets as needed, so everyone
 ## Joining
 Are you interested in joining the mesh? You will need to purchase a LoRa radio from the [Supported Hardware](https://meshtastic.org/docs/hardware/devices/) list which start at about $35. Outside of the mesh, we are most active on our public [Discord Server](https://discord.gg/ANvUg3AyZt).
 
-Puget Mesh node installed at Maple Leaf in Seattle:
-
-[![Puget Mesh Logo](/media/MLA_Node.jpg)](/media/MLA_Node.jpg)
+Checkout our installations page to see our Meshtastic installations including build photos and coverage maps. 
+[Puget Mesh Meshtastic Installations](/meshtastic/installations)
 
 **Note**: Node names beginning with "PugetMesh.org" are not actively monitored so a direct message reply is unlikely.
 
