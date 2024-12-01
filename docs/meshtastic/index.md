@@ -22,14 +22,18 @@ Every Monday evening at 7pm we have our weekly net on the public default LongFas
 
 At 7pm please send the following message:
 
-`##### Welcome to the Puget Mesh Net! #####
+```
+##### Welcome to the Puget Mesh Net! #####
 Every Monday at 7pm. Please check in with:
 "Hello KK4GKF, this is <my_name> in <my_location>"
-I will acknowledge all check-ins that I receive.`
+I will acknowledge all check-ins that I receive.
+```
 
 Respond to every check-in that you receive and include their name and location.
 
-`KK4GKF (Net Control) received check-in from <their_name> in <location>.`
+```
+KK4GKF (Net Control) received check-in from <their_name> in <location>.
+```
 
 It may feel redundant to include names in the messages, but this ensures all parties have the node name available. Node lists typically only remember the 100 most recent node names and this is easy to exceed in high mesh-density areas.
 
