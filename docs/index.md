@@ -9,17 +9,6 @@ We love chatting on and off of the mesh. We use Discord for nearly all of our co
 
 Use the navigation menu to explore more about each mesh network. 
 
-### Recent Bluesky Posts
-<script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
-
-<bsky-embed
-username="pugetmesh.org"
-limit="3"
-load-more="true"
->
-</bsky-embed>
-
-
 # Events
 ## Weekly Meshtastic Net:
 Join us Mondays at 7pm for our Meshtastic Net. Listen for us on the public default LongFast channel, on the default LONG_FAST freqency slot 20. Learn more [HERE](/meshtastic/#weekly-net). 
