@@ -16,6 +16,7 @@ Puget Mesh node installed at Maple Leaf in Seattle:
 
 ## Weekly Net
 Every Monday evening at 7pm we have our weekly net on the public default LongFast channel, on the default LONG_FAST freqency slot 20. Currently the [following nodes are confirmed](/meshtastic/verifiedkeys/) net control operators.
+
 - KK4GKF
 
 **Net Control Guide**
