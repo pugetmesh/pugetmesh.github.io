@@ -7,11 +7,11 @@ repo_url: https://github.com/pugetmesh/pugetmesh.github.io
 edit_uri: edit/main/docs/
 nav:
   - Home: index.md
-  - AREDN: /aredn/index.md
+  - AREDN: aredn/index.md
   - Meshtastic:
-    - /meshtastic/index.md
-    - Configuration: /meshtastic/config.md
-    - Installations: /meshtastic/installations.md
+    - meshtastic/index.md
+    - Configuration: meshtastic/config.md
+    - Installations: meshtastic/installations.md
   - About: about.md
   - Other: other.md
 
