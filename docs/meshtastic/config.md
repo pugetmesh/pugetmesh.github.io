@@ -1,7 +1,8 @@
 # Recommend Configuration
 Can't find a setting?  Check the [Meshtastic docs](https://meshtastic.org/docs/configuration/) for more info - each page has tabs for iOS, Android, CLI, and Web.
 
-!!! Fixed Nodes
+!!! example "Fixed Nodes"
+
     *If your node will move, please use the portable node configuration*
 
     === "Radio>Device"
@@ -32,7 +33,7 @@ Can't find a setting?  Check the [Meshtastic docs](https://meshtastic.org/docs/c
     * **Enabled:** `TRUE`
     * **Update Interval:** `18000` seconds
 
-!!! Portable Nodes
+!!! example "Portable Nodes"
 
     === "Radio>Device"
     * **Role:** usually should be `CLIENT` or `CLIENT_MUTE` or other roles as appropriate by situation.  `ROUTER`, `REPEATER`, and `ROUTER_CLIENT` should not be used. For more information see the [Meshtastic docs](https://meshtastic.org/docs/configuration/radio/device/#roles).
@@ -62,7 +63,7 @@ Can't find a setting?  Check the [Meshtastic docs](https://meshtastic.org/docs/c
 
     * **Enabled:** `FALSE`
 
-!!! Get on the Map
+!!! example "Get on the Map"
 
     === "Channels>Primary"
 
