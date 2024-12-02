@@ -2,115 +2,115 @@
 Can't find a setting?  Check the [Meshtastic docs](https://meshtastic.org/docs/configuration/) for more info - each page has tabs for iOS, Android, CLI, and Web.
 
 ## Fixed Nodes
-_If your node will move, please use the portable node configuration_
-# [Radio>Device](#tab/device)
-__Role:__ usually should be `CLIENT` or `CLIENT_MUTE` or other roles as appropriate by situation. It is rare that `ROUTER` or `REPEATER` are appropriate, so please consult with the group on Discord before doing so.  Adding nodes with these roles can negatively impact the mesh.  The role `ROUTER_CLIENT` (deprecated) should not be used.  For more information see the [Meshtastic docs](https://meshtastic.org/docs/configuration/radio/device/#roles).
+*If your node will move, please use the portable node configuration*
+=== "Radio>Device"
+**Role:** usually should be `CLIENT` or `CLIENT_MUTE` or other roles as appropriate by situation. It is rare that `ROUTER` or `REPEATER` are appropriate, so please consult with the group on Discord before doing so.  Adding nodes with these roles can negatively impact the mesh.  The role `ROUTER_CLIENT` (deprecated) should not be used.  For more information see the [Meshtastic docs](https://meshtastic.org/docs/configuration/radio/device/#roles).
 
-__Node Info Broadcast Interval:__ `3600` seconds
+**Node Info Broadcast Interval:** `10800` seconds
 
-# [Radio>Position](#tab/position)
-__GPS Mode:__ `ENABLED` if present, else `NOT_PRESENT`.  _Note: when connected to iOS or Android, phone GPS can be relayed to the node if the node does not have GPS._
+=== "Radio>Position"
+**GPS Mode:** `ENABLED` if present, else `NOT_PRESENT`.  _Note: when connected to iOS or Android, phone GPS can be relayed to the node if the node does not have GPS._
 
-__Fixed Position:__ `TRUE` is often appropriate for fixed nodes, but not required.  This can be set via CLI or sent from phone GPS.
+**Fixed Position:** `TRUE` is often appropriate for fixed nodes, but not required.  This can be set via CLI or sent from phone GPS.
 
-__Broadcast Interval:__ `3600` seconds
+**Broadcast Interval:** `18000` seconds
 
-# [Radio>LoRa](#tab/lora)
-__Region:__ `US`
+=== "Radio>LoRa"
+**Region:** `US`
 
-__Hop Limit:__ todo - do we have a suggestion?  Meshtastic says usually 3, but some other communities have this higher (e.g. ChicagolandMesh says 7).
+**Hop Limit:** `3`
 
-__OK to MQTT:__ `TRUE` - this allows packets to be uploaded to MQTT, required to show up on the map if not directly uploading to MQTT.  _Note: this is a request and may not necessarily be honored._
+**OK to MQTT:** `TRUE` - this allows packets to be uploaded to MQTT, required to show up on the map if not directly uploading to MQTT.  _Note: this is a request and may not necessarily be honored._
 
-# [Radio>Bluetooth](#tab/bluetooth)
+=== "Radio>Bluetooth"
 _If present & desired to be enabled (optional)_
 
-__Enabled:__ `TRUE`
+**Enabled:** `TRUE`
 
-__Pairing Mode:__ `Random PIN` or `Fixed PIN` (if no screen/ screen visible to public: fixed; else either as desired).
+**Pairing Mode:** `Random PIN` or `Fixed PIN` (if no screen/ screen visible to public: fixed; else either as desired).
 
-__PIN:__ (if fixed) anything but `123456` - remember to change this if using fixed PIN.
+**PIN:** (if fixed) anything but `123456` - remember to change this if using fixed PIN.
 
-# [Modules>Neighbor Info](#tab/neighbor)
-__Enabled:__ `TRUE`
+=== "Modules>Neighbor Info"
+**Enabled:** `TRUE`
 
-__Update Interval:__ `3600` seconds
+**Update Interval:** `18000` seconds
 
 ---
 
 ## Portable Nodes
 
-# [Radio>Device](#tab/device)
-__Role:__ usually should be `CLIENT` or `CLIENT_MUTE` or other roles as appropriate by situation.  `ROUTER`, `REPEATER`, and `ROUTER_CLIENT` should not be used. For more information see the [Meshtastic docs](https://meshtastic.org/docs/configuration/radio/device/#roles).
+=== "Radio>Device"
+**Role:** usually should be `CLIENT` or `CLIENT_MUTE` or other roles as appropriate by situation.  `ROUTER`, `REPEATER`, and `ROUTER_CLIENT` should not be used. For more information see the [Meshtastic docs](https://meshtastic.org/docs/configuration/radio/device/#roles).
 
-__Node Info Broadcast Interval:__ `1200` seconds
+**Node Info Broadcast Interval:** `1200` seconds
 
-# [Radio>Position](#tab/position)
-__GPS Mode:__ `ENABLED` if present, else `NOT_PRESENT`.  _Note: when connected to iOS or Android, phone GPS can be relayed to the node if the node does not have GPS._
+=== "Radio>Position"
+**GPS Mode:** `ENABLED` if present, else `NOT_PRESENT`.  *Note: when connected to iOS or Android, phone GPS can be relayed to the node if the node does not have GPS.*
 
-__Fixed Position:__ `FALSE` is often appropriate for fixed nodes, but not required.  This can be set via CLI or sent from phone GPS.
+**Fixed Position:** `FALSE` is often appropriate for fixed nodes, but not required.  This can be set via CLI or sent from phone GPS.
 
-__Broadcast Interval:__ `1200` seconds
+**Broadcast Interval:** `1200` seconds
 
-# [Radio>LoRa](#tab/lora)
-__Region:__ `US`
+=== "Radio>LoRa"
+**Region:** `US`
 
-__Hop Limit:__ todo - do we have a suggestion?  Meshtastic says usually 3, but some other communities have this higher (e.g. ChicagolandMesh says 7).
+**Hop Limit:** `3`
 
-__OK to MQTT:__ `TRUE` - this allows packets to be uploaded to MQTT, required to show up on the map if not directly uploading to MQTT.  _Note: this is a request and may not necessarily be honored._
+**OK to MQTT:** `TRUE` - this allows packets to be uploaded to MQTT, required to show up on the map if not directly uploading to MQTT.  *Note: this is a request and may not necessarily be honored.*
 
-# [Radio>Bluetooth](#tab/bluetooth)
-_If present & desired to be enabled (optional)_
+=== "Radio>Bluetooth"
+*If present & desired to be enabled (optional)*
 
-__Enabled:__ `TRUE`
+**Enabled:** `TRUE`
 
-__Pairing Mode:__ `Random PIN` or `Fixed PIN` (if no screen/ screen visible to public: fixed; else either as desired).
+**Pairing Mode:** `Random PIN` or `Fixed PIN` (if no screen/ screen visible to public: fixed; else either as desired).
 
-__PIN:__ (if fixed) anything but `123456` - remember to change this if using fixed PIN.
+**PIN:** (if fixed) anything but `123456` - remember to change this if using fixed PIN.
 
-# [Modules>Neighbor Info](#tab/neighbor)
-_Please do not enable neighbor info for portable nodes as it makes telemetry difficult to interpret_
+=== "Modules>Neighbor Info"
+*Please do not enable neighbor info for portable nodes as it makes telemetry difficult to interpret*
 
-__Enabled:__ `FALSE`
+**Enabled:** `FALSE`
 
 ---
 
 ## Get on the Map
-# [Channels>Primary](#tab/primary)
-__Allow Position Requests:__ `TRUE`
+=== "Channels>Primary"
+**Allow Position Requests:** `TRUE`
 
-__Precise Location:__ `FALSE`
+**Precise Location:** `FALSE`
 
-__Approximate Location:__ Choose a value you are comfortable with.
+**Approximate Location:** Choose a value you are comfortable with.
 
 #### If Enabling MQTT
 
-__Uplink Enabled:__ `TRUE`
+**Uplink Enabled:** `TRUE`
 
-__Downlink Enabled:__ `FALSE`
+**Downlink Enabled:** `FALSE`
 
-# [Modules>MQTT](#tab/mqtt)
+=== "Modules>MQTT"
 Enabling MQTT will guarantee you will appear on the map, otherwise you must have OK to MQTT & position on and connect to a node uplinked to MQTT.
 
-__Enabled:__ `TRUE`
+**Enabled:** `TRUE`
 
-__MQTT Server Address:__ `mqtt.davekeogh.com` - this server is required to show up on our map.
+**MQTT Server Address:** `mqtt.davekeogh.com` - this server is required to show up on our map.
 
-__Username/Password:__ Leave default or go to [the map](https://mqtt.davekeogh.com/) for details.
+**Username/Password:** Leave default or go to [the map](https://mqtt.davekeogh.com/) for details.
 
-__Encryption Enabled:__ `TRUE`
+**Encryption Enabled:** `TRUE`
 
-__JSON Enabled:__ `FALSE`
+**JSON Enabled:** `FALSE`
 
-__TLS Enabled:__ `FALSE`
+**TLS Enabled:** `FALSE`
 
-__Root Topic:__ `msh/US`
+**Root Topic:** `msh/US`
 
-__Map Reporting Enabled:__ `TRUE`
+**Map Reporting Enabled:** `TRUE`
 
-__Map Report Publish Interval:__ Fixed: `3600`, Portable: `300`
+**Map Report Publish Interval:** Fixed: `3600`, Portable: `300`
 
-__Approximate Location:__ Choose a value you are comfortable with.
+**Approximate Location:** Choose a value you are comfortable with.
 
 ---
 
@@ -120,4 +120,4 @@ Use [this link](https://meshtastic.org/e/?add=true#CiESEIx68aUDqunRAQuS3a91C60aC
 ![PS-Mesh! QR Code](/media/ps-mesh-qr.png)
 
 ## Join the Discord
-We love chatting on and off of the mesh.  The Discord is also a great place to get help, share pictures, and get ideas for projects.
+We love chatting on and off of the mesh.  The [Discord](https://discord.gg/ANvUg3AyZt) is also a great place to get help, share pictures, and get ideas for projects.

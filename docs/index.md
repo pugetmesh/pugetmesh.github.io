@@ -14,6 +14,7 @@ Use the navigation menu to explore more about each mesh network.
 Join us Mondays at 7pm for our Meshtastic Net. Listen for us on the public default LongFast channel, on the default LONG_FAST freqency slot 20. Learn more [HERE](/meshtastic/#weekly-net). 
 
 
+---
 ## Past Events:
 **November 23rd, 2024:**
 In-Person Meetup at the [Shoreline Library](https://maps.app.goo.gl/B4RmdBR16wtdEE3Q7). 

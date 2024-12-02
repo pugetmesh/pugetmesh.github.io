@@ -9,7 +9,7 @@ nav:
   - Home: index.md
   - AREDN: aredn/index.md
   - Meshtastic:
-    - meshtastic/index.md
+    - Overview: meshtastic/index.md
     - Configuration: meshtastic/config.md
     - Installations: meshtastic/installations.md
   - About: about.md
