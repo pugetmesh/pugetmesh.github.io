@@ -1,6 +1,6 @@
 # Welcome
 
-[![Puget Mesh Logo](/static/PugetMeshLogo_200.png){ align=left }](/static/PugetMeshLogo.svg)
+[![Puget Mesh Logo](/static/PugetMeshLogo_200.png){ align=left }](/static/PugetMeshLogo.png)
 Puget Mesh is a volunteer community group that supports AREDN, Meshtastic, and other Mesh networks in the Puget Sound Region.
 
 We love chatting on and off of the mesh. We use Discord for nearly all of our communication outside of the mesh. It is also a great place to get help, share pictures, and get ideas for projects. All other inquiries can be sent to inquiry@pugetmesh.org.
