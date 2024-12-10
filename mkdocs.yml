@@ -10,8 +10,9 @@ nav:
   - AREDN: aredn/index.md
   - Meshtastic:
     - Overview: meshtastic/index.md
+    - FAQ: meshtastic/faq.md
     - Configuration: meshtastic/config.md
-    - Installations: meshtastic/installations.md
+    - Site Installs: meshtastic/installations.md
   - About: about.md
   - Other: other.md
 
