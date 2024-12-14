@@ -117,6 +117,7 @@ Can't find a setting?  Check the [Meshtastic docs](https://meshtastic.org/docs/c
     * **Enabled:** `FALSE`
 
 ### Get on the Map
+The following changes are necessary for your node to appear on the map.
 
 === "Channels>Primary"
 
@@ -131,7 +132,7 @@ Can't find a setting?  Check the [Meshtastic docs](https://meshtastic.org/docs/c
 
 === "Modules>MQTT"
 
-    Enabling MQTT will guarantee you will appear on the map, otherwise you must have OK to MQTT & position on and connect to a node uplinked to MQTT.
+    Enabling MQTT will guarantee you will appear on the map, otherwise you must have "OK to MQTT" (Found under LoRa), position on, and connect to a node uplinked to MQTT.
 
     * **Enabled:** `TRUE`
     * **MQTT Server Address:** `mqtt.davekeogh.com` - this server is required to show up on our map.
