@@ -148,16 +148,13 @@ The following changes are necessary for your node to appear on the map.
 ---
 ## Alternate Channels
 
-### PS-Mesh!
+### PS-Mesh! Channel
 There are more channels than the default LongFast, one of them is our PS-Mesh! channel which you are welcome to join and is related to this group. be sure to pay attention when adding the channel so you don't replace your current channels.
 
-[Meshtastic Link for PS-Mesh!](https://meshtastic.org/e/?add=true#CiESEIx68aUDqunRAQuS3a91C60aCFBTLU1lc2ghJQIAAAASDwgBOAFABUgBUB5oAcgGAQ)
-![PS-Mesh! QR Code](/media/ps-mesh-qr.png)
+[![PS-Mesh! QR Code](/media/ps-mesh-qr.png){ width=250 }](https://meshtastic.org/e/?add=true#CiESEIx68aUDqunRAQuS3a91C60aCFBTLU1lc2ghJQIAAAASDwgBOAFABUgBUB5oAcgGAQ)
 
-
-### PS-MQTT!
+### PS-MQTT! Channel
 
 If you wish to communicate with others in the area over MQTT, use this channel.
 
-[Meshtastic Link for PS-MQTT!](https://meshtastic.org/e/?add=true#CiESEJqrbZqrbZqrbZqrbZqrbUEaCFBTLU1RVFQhJQMAAAASDggBOAFABkgBUB5YFGgB)
-![PS-MQTT! QR Code](/media/ps-mqtt-qr.png)
+[![PS-MQTT! QR Code](/media/ps-mqtt-qr.png){ width=250 }](https://meshtastic.org/e/?add=true#CiESEJqrbZqrbZqrbZqrbZqrbUEaCFBTLU1RVFQhJQMAAAASDggBOAFABkgBUB5YFGgB)
