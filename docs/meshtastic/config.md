@@ -155,6 +155,6 @@ There are more channels than the default LongFast, one of them is our PS-Mesh! c
 
 ### PS-MQTT! Channel
 
-If you wish to communicate with others in the area over MQTT, use this channel. Reminder that connecting your node to MQTT does send your data to the mqtt server.
+If you wish to communicate with others in the area over MQTT, use this channel. You will need to enable "OK to MQTT" under the LoRa settings, and you will need to enable uplink and downlink for the channel. Reminder that connecting your node to MQTT does send your data to the mqtt server. You do not need to directly connect your node to MQTT for this to work. 
 
 [![PS-MQTT! QR Code](/media/ps-mqtt-qr.png){ width=250 }](https://meshtastic.org/e/?add=true#CiESEJqrbZqrbZqrbZqrbZqrbUEaCFBTLU1RVFQhJQMAAAASDggBOAFABkgBUB5YFGgB)
