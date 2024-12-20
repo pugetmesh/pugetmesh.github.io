@@ -5,9 +5,11 @@ Puget Mesh is a volunteer community group that supports AREDN, Meshtastic, and o
 
 We love chatting on and off of the mesh. We use Discord for nearly all of our communication outside of the mesh. It is also a great place to get help, share pictures, and get ideas for projects. All other inquiries can be sent to inquiry@pugetmesh.org.
 
-[![Discord Widget](https://discord.com/api/guilds/1291139029814739084/widget.png?style=banner2)](https://discord.gg/ANvUg3AyZt)
-
 Use the navigation menu to explore more about each mesh network. 
+
+## Discord Server
+[Join our Discord](https://discord.gg/ANvUg3AyZt)
+<iframe src="https://e.widgetbot.io/channels/1291139029814739084/1291139029814739087" allow="clipboard-write; fullscreen" height="600" width="1000"></iframe>
 
 ---
 ## Current Events:
