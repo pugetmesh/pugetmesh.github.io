@@ -21,8 +21,5 @@ It is important to know that Meshtastic is under rapid development, and is not y
 
 
 ## Join the Discord
-[![Discord Widget](https://discord.com/api/guilds/1291139029814739084/widget.png?style=banner2){ align=left }](https://discord.gg/ANvUg3AyZt)
 We love chatting on and off of the mesh. The [Discord](https://discord.gg/ANvUg3AyZt) is also a great place to get help, share pictures, and get ideas for projects.
-<br/>
-<br/>
-<br/>
+<iframe src="https://e.widgetbot.io/channels/1291139029814739084/1294852768019910777" allow="clipboard-write; fullscreen" height="750" width="100%"></iframe>

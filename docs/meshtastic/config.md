@@ -164,3 +164,7 @@ If you wish to communicate with others in the area over MQTT, use this channel. 
 - PSK: "mqttmqttmqttmqttmqttQQ=="
 
 [![PS-MQTT! QR Code](/media/ps-mqtt-qr.png){ width=250 }](https://meshtastic.org/e/?add=true#CiESEJqrbZqrbZqrbZqrbZqrbUEaCFBTLU1RVFQhJQMAAAASDggBOAFABkgBUB5YFGgB)
+
+
+All Messages sent to PS-MQTT! (that are received by a node connected to the MQTT server) are published to our ps-mqtt Discord Channel.
+<iframe src="https://e.widgetbot.io/channels/1291139029814739084/1319416890820395019" allow="clipboard-write; fullscreen" height="550" width="100%"></iframe>

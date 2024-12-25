@@ -4,15 +4,19 @@
 Puget Mesh is a volunteer community group that supports AREDN, Meshtastic, and other off-grid mesh networks in the Puget Sound Region. These networks serve as tools during times of need (Emergency Response, Disaster Preparedness). 
 
 We love chatting on and off of the mesh. We use Discord for nearly all of our communication outside of the mesh. It is also a great place to get help, share pictures, and get ideas for projects. All other inquiries can be sent to inquiry@pugetmesh.org.
+</br>
+</br>
+</br>
+
+## Discord
 
 [![Discord Widget](https://discord.com/api/guilds/1291139029814739084/widget.png?style=banner2)](https://discord.gg/ANvUg3AyZt)
-
-Use the navigation menu to explore more about each mesh network. 
+<iframe src="https://e.widgetbot.io/channels/1291139029814739084/1291139029814739087" allow="clipboard-write; fullscreen" height="750" width="100%"></iframe>
 
 ---
 ## Current Events:
 ### Weekly Meshtastic Net:
-Join us Mondays at 7pm for our Meshtastic Net. Listen for us on the public default LongFast channel, on the default LONG_FAST freqency slot 20. Learn more [HERE](/meshtastic/#weekly-net). 
+~~Join us Mondays at 7pm for our Meshtastic Net.~~(We are moving to a new time, stay tuned for that information) Listen for us on the public default LongFast channel, on the default LONG_FAST freqency slot 20. Learn more [HERE](/meshtastic/#weekly-net). 
 
 ---
 
