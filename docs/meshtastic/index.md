@@ -8,7 +8,7 @@ Are you interested in joining the mesh? You will need to purchase a LoRa radio f
 
 * Review the [FAQ](/meshtastic/faq)
 * Review the [Configuration](config) page
-* Checkout our [Site Installations](/meshtastic/installations).
+* Checkout our [Equipment](/meshtastic/equipment).
 
 ## Weekly Net
 Every Monday evening at 6:13:45pm (906.875x2 = 1813.75 hours) we have our weekly net on the public default LongFast channel, on the default LONG_FAST frequency slot 20. We also touch base on our [discord weekly-net channel](https://discord.com/channels/1291139029814739084/1323907750690029578) and voice channel.
