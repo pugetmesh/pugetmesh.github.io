@@ -148,22 +148,24 @@ The following changes are necessary for your node to appear on the map.
 ---
 ## Alternate Channels
 
+!!! Warning
+
+    We no longer use or recommend using QR codes or Meshtastic URL's for sharing channels. These methods can also modify your LoRa settings such as hop count and "OK to MQTT" with no ability for the user to verify in the app. For these reasons we are sharing the channel name and key directly. You must enter both of these correctly in order to join the channel.
+
 ### PS-Mesh! Channel
 There are more channels than the default LongFast, one of them is our PS-Mesh! channel which you are welcome to join and is related to this group. be sure to pay attention when adding the channel so you don't replace your current channels.
 
-- Channel Name: "PS-Mesh!"
-- PSK: "jHrxpQOq6dEBC5Ldr3ULrQ=="
-
-[![PS-Mesh! QR Code](/media/ps-mesh-qr.png){ width=250 }](https://meshtastic.org/e/?add=true#CiESEIx68aUDqunRAQuS3a91C60aCFBTLU1lc2ghJQIAAAASDwgBOAFABUgBUB5oAcgGAQ)
+| Channel Name | PSK |
+| --- | --- |
+| PS-Mesh! | jHrxpQOq6dEBC5Ldr3ULrQ== |
 
 ### PS-MQTT! Channel
 
 If you wish to communicate with others in the area over MQTT, use this channel. You will need to enable "OK to MQTT" under the LoRa settings, and you will need to enable uplink and downlink for the channel. Reminder that connecting your node to MQTT does send your data to the mqtt server. You do not need to directly connect your node to MQTT for this to work. 
 
-- Channel Name: "PS-MQTT!"
-- PSK: "mqttmqttmqttmqttmqttQQ=="
-
-[![PS-MQTT! QR Code](/media/ps-mqtt-qr.png){ width=250 }](https://meshtastic.org/e/?add=true#CiESEJqrbZqrbZqrbZqrbZqrbUEaCFBTLU1RVFQhJQMAAAASDggBOAFABkgBUB5YFGgB)
+| Channel Name | PSK |
+| --- | --- |
+| PS-MQTT! | mqttmqttmqttmqttmqttQQ== |
 
 
 All Messages sent to PS-MQTT! (that are received by a node connected to the MQTT server) are published to our ps-mqtt Discord Channel.
