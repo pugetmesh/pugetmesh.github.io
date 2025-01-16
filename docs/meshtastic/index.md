@@ -44,12 +44,18 @@ The vast majority of us have chosen not to use MQTT with Meshtastic in the spiri
 
 </br>
 </br>
-</br>
 
-There are a few public maps available showing nodes (that choose to share their position) but we use [https://meshtastic.davekeogh.com/](https://meshtastic.davekeogh.com/).
+There are a few public mqtt maps available showing nodes (that choose to share their position) but we use [https://meshtastic.davekeogh.com/](https://meshtastic.davekeogh.com/).
 
 - Use the Layers menu in the top right to view Node types and Overlays.
 - Click on a Node for Node-specific information.
+- [Visit our guide](http://localhost:8000/meshtastic/config/#get-on-the-map) to see how to get onto the public MQTT maps.
+
+### Collaborative Map
+
+<iframe style="height:500px; width:100%; border:none;" src="https://facilmap.org/NOb2ESIvTxlC3Z?search=false#10/47.6462/-122.3625/Lima"></iframe>
+
+This collaborative map allows users to place their fixed nodes for others to see. Regardless of their MQTT settings or connectivity. This also allows us to coordinate potential new sites to help grow the mesh.
 
 
 ## Member Projects
