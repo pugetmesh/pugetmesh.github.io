@@ -10,13 +10,12 @@ We love chatting on and off of the mesh. We use Discord for nearly all of our co
 
 ## Discord
 
-[![Discord Widget](https://discord.com/api/guilds/1291139029814739084/widget.png?style=banner2)](https://discord.gg/ANvUg3AyZt)
 <iframe src="https://e.widgetbot.io/channels/1291139029814739084/1291139029814739087" allow="clipboard-write; fullscreen" height="750" width="100%"></iframe>
-
+[![Discord Widget](https://discord.com/api/guilds/1291139029814739084/widget.png?style=banner2)](https://discord.gg/ANvUg3AyZt)
 ---
 ## Current Events:
 ### Weekly Meshtastic Net:
-Join us Mondays at 6:13:45PM hours for our Meshtastic Net. Listen for us on the public default LongFast channel, on the default LONG_FAST frequency slot 20. Learn more [HERE](/meshtastic/#weekly-net).
+Join us every Monday at 6:13:45PM for our Meshtastic Net. Listen for us on the public default LongFast channel, on the default LONG_FAST frequency slot 20. Learn more [HERE](/meshtastic/#weekly-net).
 
 ---
 

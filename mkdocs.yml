@@ -12,7 +12,7 @@ nav:
     - Overview: meshtastic/index.md
     - FAQ: meshtastic/faq.md
     - Configuration: meshtastic/config.md
-    - Site Installs: meshtastic/installations.md
+    - Equipment: meshtastic/equipment.md
   - About: about.md
   - Other: other.md
 
