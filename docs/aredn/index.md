@@ -25,6 +25,13 @@ Additionally there is an [AREDN offline Map submission tool](https://www.arednme
 </br>
 </br>
 
+### Collaborative Map
+
+<iframe style="height:500px; width:100%; border:none;" src="https://facilmap.org/MRdcQjxslobJK8?search=false#9/47.7299/-122.3520/Lima/"></iframe>
+
+This collaborative map allows users to place their fixed nodes for others to see. This is especially helpful to capture users with nodes that are not connected to the internet, or not deployed at all times. 
+
+
 ## Uses
 
 There are two primary ways to build an AREDN mesh:
