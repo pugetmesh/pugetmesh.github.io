@@ -49,7 +49,7 @@ There are a few public mqtt maps available showing nodes (that choose to share t
 
 - Use the Layers menu in the top right to view Node types and Overlays.
 - Click on a Node for Node-specific information.
-- [Visit our guide](http://localhost:8000/meshtastic/config/#get-on-the-map) to see how to get onto the public MQTT maps.
+- [Visit our guide](/meshtastic/config/#get-on-the-map) to see how to get onto the public MQTT maps.
 
 ### Collaborative Map
 
