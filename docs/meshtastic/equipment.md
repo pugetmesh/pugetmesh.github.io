@@ -17,9 +17,9 @@ The following sections detail our builds and installations around the area. Addi
 ---
 ## Firestation 61 (Shoreline ACS, Shoreline)
 
-Node Name | Radio | Antenna | Battery | Solar
-:---: | :---: | :---: | :---: | :---:
-Shoreline ACS | rak4631 | Hexa Boost 8dbi Omni | 2x 18650 (6ah) | 6 watt
+Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
+Shoreline ACS | rak4631 | Hexa Boost 8dbi Omni | 2x 18650 (6ah) | 6 watt | LONG_FAST | 20 | ALL
 
 ![Shoreline ACS Meshtastic Node](/media/ShorelineACS_MeshtasticNode.png)
 
@@ -30,8 +30,8 @@ Click to enlarge and see the larger coverage map.
 ## Maple Leaf Reservoir (Seattle)
 
 Node Name | Radio | Antenna | Battery | Solar
-:---: | :---: | :---: | :---: | :---:
-PugetMesh.org - Maple Leaf Apartments | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
+PugetMesh.org - Maple Leaf Apartments | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | LONG_FAST | 20 | LOCAL_ONLY
 
 ![Puget Mesh Node Version 3](/media/PugetMesh_NodeV3.png)
 [![Puget Mesh Maple Leaf Meshtastic Node](/media/MLA_Node.jpg)](/media/MLA_Node.jpg)
@@ -44,8 +44,8 @@ Click to enlarge and see the larger coverage map.
 ## North City (Shoreline)
 
 Node Name | Radio | Antenna | Battery | Solar
-:---: | :---: | :---: | :---: | :---:
-Shoreline ACS | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
+Shoreline ACS | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | LONG_FAST | 20 | LOCAL_ONLY
 
 This location uses the same node build as Maple Leaf Reservoir.
 
@@ -56,10 +56,11 @@ Click to enlarge and see the larger coverage map.
 ## Capitol Hill (Seattle)
 
 Node Name | Radio | Antenna | Battery | Solar
-:---: | :---: | :---: | :---: | :---:
-PugetMesh.org - Capitol Hill | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
+PugetMesh.org - Capitol Hill | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | LONG_FAST | 20 | LOCAL_ONLY
+PugetMesh.org - Capitol Hill | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | MEDIUM_FAST | 45 | LOCAL_ONLY
 
-<Coming Soon>
+Coming soon.
 
 Click to enlarge and see the larger coverage map.
 [![Capitol Hill  Coverage Map](/media/CapitolHill_sml.jpg)](https://www.heywhatsthat.com/?view=T29861XC)
@@ -68,8 +69,8 @@ Click to enlarge and see the larger coverage map.
 ## Beacon Hill (Seattle)
 
 Node Name | Radio | Antenna | Battery | Solar
-:---: | :---: | :---: | :---: | :---:
-PugetMesh.org - Beacon Hill| rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
+PugetMesh.org - Beacon Hill| rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | LONG_FAST | 20 | LOCAL_ONLY
 
 This location uses the same node build as Maple Leaf Reservoir.
 
