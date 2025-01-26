@@ -45,7 +45,7 @@ Click to enlarge and see the larger coverage map.
 
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-Shoreline ACS | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | LONG_FAST | 20 | LOCAL_ONLY
+PugetMesh.org - North City | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | LONG_FAST | 20 | LOCAL_ONLY
 
 This location uses the same node build as Maple Leaf Reservoir.
 

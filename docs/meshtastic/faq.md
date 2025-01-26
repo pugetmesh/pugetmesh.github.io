@@ -11,10 +11,12 @@ It is important to know that Meshtastic is under rapid development, and is not y
     1. Allow your node to run overnight and search for it (long name, short name, or either ID string) on the [webmap](https://meshtastic.davekeogh.com/).
 * **Why am I not getting any responses to my messages sent in LongFast or Direct Messages?**
     1. The mesh is (currently) a fairly quiet place. We do have a [weekly net](/meshtastic/#weekly-net). This doesn't mean that you are not connected.
-    1. Many nodes are unmonitored and just serve to connect the mesh. We encourage use of "📵" in the long name to indicate this.
+    1. Check out our discord as received messages are automatically published there. Specifically Meshtastic > mqtt-messages > LongFast.
+    1. Many nodes are unmonitored and just serve to connect the mesh. We encourage use of "📵" in the long name to indicate that your node will not respond to direct messages. 
 * **I am not seeing any other nodes on my list, even after running overnight.**
     1. Make sure your node is somewhere it can signal, near a window can be a good place.
     1. Ensure your region is set (Choose "US") on the settings tab of the app.
+    1. Our primary mesh uses the default settings of LONG_FAST and slot 20, not in ham mode. 
     1. Check the steps listed under "How do I know if I am connected to the mesh?" above.
 * **My node keeps rebooting, or having other apparent issues.**
     1. Try reflashing your node again, and then try older firmware versions. This may take several attempts.
