@@ -1,14 +1,16 @@
 # Meshtastic
-![Puget Mesh Logo](/media/Meshtastic_Banner_Logo.png)
+![Meshtastic Logo](/media/Meshtastic_Banner_Logo.png)
 
 Meshtastic® is a project that lets you use inexpensive LoRa radios as a long range off-grid communication platform in areas without existing or reliable communications infrastructure. This project is 100% community driven and open source! The radios automatically create a mesh to forward packets to neighbors (up to 3 hops from origin). The radios will optionally work with your phone, but no phone is required. Puget Mesh is working to build a mesh in our region that anyone can connect to. The intention is for this off-grid network to be avaialable as an Emergency/Disaster response tool. One large advantage of Meshtastic over GMRS or Amateur radio services is that no license is required to use Meshtastic.
 
 ## Joining
+
 Are you interested in joining the mesh? You will need to purchase a LoRa radio from the [Supported Hardware](https://meshtastic.org/docs/hardware/devices/) list. Outside of the mesh, we are most active on our public [Discord Server](https://discord.gg/ANvUg3AyZt).
 
+* Read about fundamental concepts of Meshtastic in [Adam's Presentation](https://docs.google.com/presentation/d/1xx2Ae8VMTQzYbq140SX4FAlHGFCDjrVD/edit#slide=id.p1)
 * Review the [FAQ](/meshtastic/faq)
 * Review the [Configuration](config) page
-* Checkout our [Equipment](/meshtastic/equipment).
+* Checkout our [Equipment](/meshtastic/equipment)
 
 ## Weekly Net
 Every Monday evening at 6:13:45pm (906.875x2 = 1813.75 hours) we have our weekly net on the public default LongFast channel, on the default LONG_FAST frequency slot 20. We also touch base on our [discord weekly-net channel](https://discord.com/channels/1291139029814739084/1323907750690029578) and voice channel.
