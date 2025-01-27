@@ -10,7 +10,7 @@
 
 ```sh
 # create a venv at project root with name of {path}
-python3 -m venv {path} # will be gitignored
+python3 -m venv {path} # will be gitignored or untracked
 source {path}/bin/activate # prompt prefix changes to named venv
 
 # install prereqs
