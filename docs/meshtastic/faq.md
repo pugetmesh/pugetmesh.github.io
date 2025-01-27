@@ -4,7 +4,7 @@
 It is important to know that Meshtastic is under rapid development, and is not yet a *polished* product. There are bugs and quirks but that is part of the fun. If you have just turned on your Meshtastic device for the first time, get it in a good location (being next to a window can help) and let it run overnight. It takes time to see other nodes, and for other nodes to see you. Some users choose to share their position (GPS or fixed coordinates) which will appear on the maps. There are a few public maps available showing nodes (that choose to share their position) but we use [https://meshtastic.davekeogh.com/](https://meshtastic.davekeogh.com/).
 
 
-##FAQ's
+## FAQ's
 
 * **How do I know if I am connected to the mesh?**
     1. Seeing other nodes appear in your node list is a good indicator.
@@ -20,7 +20,9 @@ It is important to know that Meshtastic is under rapid development, and is not y
     1. Check the steps listed under "How do I know if I am connected to the mesh?" above.
 * **My node keeps rebooting, or having other apparent issues.**
     1. Try reflashing your node again, and then try older firmware versions. This may take several attempts.
-
+* **Where can I go to learn even more?**
+    1. The Puget Sound Repeater Group holds [Educational Presentation](https://web.psrg.org/educational-presentations/), covering many topics including a [video recording of Adam's Meshtastic presentation](https://drive.google.com/file/d/1-oPVaVvxjiSwTO9vx0fLE44an5JK30Or/view?usp=drive_link).
+    1. In November 2024, [Ham Radio 2.0 (YouTube)](https://www.youtube.com/watch?v=YywOlirsOMA) interviewed Meshtastic Developers, and they shared some _Meshtastic_ insights.
 
 ## Join the Discord
 We love chatting on and off of the mesh. The [Discord](https://discord.gg/ANvUg3AyZt) is also a great place to get help, share pictures, and get ideas for projects.
