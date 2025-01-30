@@ -69,6 +69,9 @@ We have a lot of talented folks in our area working on interesting Meshtastic pr
 ### afourney APRStastic
 [https://github.com/afourney/aprstastic](https://github.com/afourney/aprstastic) "aprstastic is a bidirectional Meshtastic APRS gateway for Meshtastic users with amateur radio licenses. It runs on stock Meshtastic devices (LongFast, 915MHz, etc.), allowing you to participate and extend the public network, while using pre-registered associations between Meshtastic device IDs and amateur radio call signs to bidirectionally gate APRS packets in a way that is compliant with FCC regulations... "
 
+## Aforney Discord Mesh Bot (As seen on our discord) 
+[https://github.com/afourney/discord_mesh_bot](https://github.com/afourney/discord_mesh_bot) "Simple script for relaying meshtastic messages onto Discord." Our's utilizes the same MQTT server as our local maps.
+
 ---
 
 ## Other Local Meshtastic Groups
