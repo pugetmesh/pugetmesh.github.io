@@ -76,3 +76,16 @@ This location uses the same node build as Maple Leaf Reservoir.
 
 Click to enlarge and see the larger coverage map.
 [![Beacon Hill  Coverage Map](/media/BeaconHill_sml.jpg)](https://www.heywhatsthat.com/?view=CD5GQ9BW)
+
+---
+## Paine East (Everett)
+
+Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
+PugetMesh.org - Paine East | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | LONG_FAST | 20 | LOCAL_ONLY
+PugetMesh.org - Paine-MF East| rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | MEDIUM_FAST | 45 | LOCAL_ONLY
+
+Coming soon.
+
+Click to enlarge and see the larger coverage map.
+[![Capitol Hill  Coverage Map](/media/PaineEast_sml.png)](https://www.heywhatsthat.com/?view=QAXF4HU7)
