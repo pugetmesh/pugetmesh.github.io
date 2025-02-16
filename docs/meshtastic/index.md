@@ -66,13 +66,13 @@ We have a lot of talented folks in our area working on interesting Meshtastic pr
 ### SpudGunMan "Meshing Around"
 [https://github.com/SpudGunMan/meshing-around](https://github.com/SpudGunMan/meshing-around) "This feature-rich bot is designed to enhance your Meshtastic network experience with a variety of powerful tools and fun features, connectivity and utility through text-based message delivery. Whether you're looking to perform network tests, send messages, or even play games, mesh_bot.py has you covered."
 
-### afourney APRStastic
+### Aforney "APRStastic"
 [https://github.com/afourney/aprstastic](https://github.com/afourney/aprstastic) "aprstastic is a bidirectional Meshtastic APRS gateway for Meshtastic users with amateur radio licenses. It runs on stock Meshtastic devices (LongFast, 915MHz, etc.), allowing you to participate and extend the public network, while using pre-registered associations between Meshtastic device IDs and amateur radio call signs to bidirectionally gate APRS packets in a way that is compliant with FCC regulations... "
 
-### Aforney Discord Mesh Bot (As seen on our discord) 
+### Aforney "Discord Mesh Bot" (As seen on our discord) 
 [https://github.com/afourney/discord_mesh_bot](https://github.com/afourney/discord_mesh_bot) "Simple script for relaying meshtastic messages onto Discord." Our's utilizes the same MQTT server as our local maps.
 
-### Mike Carper's "Mesh Firmware"mikecarper/meshfirmware
+### Mike Carper's "Mesh Firmware"
 [https://github.com/mikecarper/meshfirmware](https://github.com/mikecarper/meshfirmware) "This Bash script automates the process of selecting, downloading, and applying firmware updates from the meshtastic/firmware GitHub repository. It is designed to simplify firmware management for meshtastic devices by handling everything from version selection to device update.
 
 ---
