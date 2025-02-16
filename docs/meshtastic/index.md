@@ -72,6 +72,8 @@ We have a lot of talented folks in our area working on interesting Meshtastic pr
 ## Aforney Discord Mesh Bot (As seen on our discord) 
 [https://github.com/afourney/discord_mesh_bot](https://github.com/afourney/discord_mesh_bot) "Simple script for relaying meshtastic messages onto Discord." Our's utilizes the same MQTT server as our local maps.
 
+### Mike Carper's "Mesh Firmware"
+[https://github.com/mikecarper/meshfirmware](https://github.com/mikecarper/meshfirmware) "This Bash script automates the process of selecting, downloading, and applying firmware updates from the meshtastic/firmware GitHub repository. It is designed to simplify firmware management for meshtastic devices by handling everything from version selection to device update.
 ---
 
 ## Other Local Meshtastic Groups
