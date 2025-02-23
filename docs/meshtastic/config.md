@@ -19,7 +19,7 @@ Commonly, users have a Meshtastic radio paired with their phone via bluetooth, t
 When users are **not** within range of each other, they can utilize the mesh that meshtastic offers. Your messages do not have to be received directly by another user, they can hop over users of the network until they arrive at their destination or stop trying. Be sure to review the New User Expectation above if you are a first time user.
 
 ### Understanding "hops"
-Unfortunately, as of V2.5.*, Meshtastic still uses the term "hop" incorrectly. Using the default "hop" limit of 3 actually means you get 4 hops as demonstrated below. It is highly recommended you keep the default hop count unless you are in a special circumstance such as using CLIENT_MUTE in the scenario shown later on.
+Meshtastic uses the term "hop" to refer to the number of nodes between the sender and receiver. It is always recommended that you use the lowest hop count possible that allows you to reach your intended recipient. As you can see below, using the default hop count of 3 means that your messages can cover many many miles. 
 
 ![Meshtastic hops diagram](/media/meshtastic_max-hops.png)
 
