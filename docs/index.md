@@ -10,19 +10,31 @@ We love chatting on and off of the mesh. We use Discord for nearly all of our co
 
 ## Discord
 
-<iframe src="https://e.widgetbot.io/channels/1291139029814739084/1291139029814739087" allow="clipboard-write; fullscreen" height="750" width="100%"></iframe>
+Consider joining our Discord. It is a great place connect with others in our area, troubleshoot and receive feedback, and learn about new projects.
 [![Discord Widget](https://discord.com/api/guilds/1291139029814739084/widget.png?style=banner2)](https://discord.gg/ANvUg3AyZt)
 ---
 ## Current Events:
 ### Weekly Meshtastic Net:
 Join us every Monday at 6:13:45PM for our Meshtastic Net. Listen for us on the public default LongFast channel, on the default LONG_FAST frequency slot 20. Learn more [HERE](/meshtastic/#weekly-net).
 
+
+### April 2025 - Meshtastic Meetup in Tacoma:
+Our next in-person meeting is hosted by the [Radio Club of Tacoma, W7DK](https://www.w7dk.org/).
+
+- Doors open at Noon.
+- Food and Drink available for purchase.
+- Meshtastic presentation starts at 1pm.
+
+ As always, Bring your friends, bring your nodes, bring your friends nodes!
+![Meshtastic Meetup, April 2025](/media/12April2025_Meshtastic_Meetup.jpg)
+
+
 ---
 
 ## Past Events:
 **November 23rd, 2024:**
 In-Person Meetup at the [Shoreline Library](https://maps.app.goo.gl/B4RmdBR16wtdEE3Q7).
-![November Meshtastic Meetup](/media/23Nov2024_Meshtastic_Meetup.png)
+![Meshtastic Meetup, Nov. 2024](/media/23Nov2024_Meshtastic_Meetup.png)
 
 
 **October 12th, 2024:**
