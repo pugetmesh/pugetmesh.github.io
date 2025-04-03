@@ -91,6 +91,9 @@ We have a lot of talented folks in our area working on interesting Meshtastic pr
 ### Mike Carper's "Mesh Firmware"
 [https://github.com/mikecarper/meshfirmware](https://github.com/mikecarper/meshfirmware) "This Bash script automates the process of selecting, downloading, and applying firmware updates from the meshtastic/firmware GitHub repository. It is designed to simplify firmware management for meshtastic devices by handling everything from version selection to device update.
 
+### Adam Gessaman's Customized "Mesh Info Lite"
+[https://meshinfo.gessaman.com](https://meshinfo.gessaman.com/) "A highly customized version of MeshInfo written in Python that inspects and visualizes Meshtastic traffic. NeighborInfo, NodeInfo, and Telemetry are used to provide a mesh map, connectivity information, and other insights into nodes and the mesh as a whole."
+
 ---
 
 ## Other Local Meshtastic Groups
