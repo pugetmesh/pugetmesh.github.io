@@ -1,5 +1,5 @@
 # Meshtastic Equipment
-The following sections detail our builds and installations around the area. Additionally you will find approximate coverage maps of each node. Use these to help get connected if you are inside the coverage (red) areas. 
+The following sections detail our builds and installations around the area. Additionally you will find approximate coverage maps of each node. Use these to help get connected if you are inside the coverage areas (red). 
 
 ### Build Tips:
 
@@ -10,7 +10,7 @@ The following sections detail our builds and installations around the area. Addi
 - I spray my antennas and enclosures with Krylon Clear Triple Glaze Coating spray. This protects the plastics from UV damage (somewhat) but also seals any small holes where the antenna passes through. 
 - I used to install switches inside the enclosures but now I prefer using the battery connector as a switch. I still use external (waterproof) switches when the enclosure requires a tool to open it. The switch goes between the radio and all power sources.
 - All enclosures include a weep hole on the bottom. This allows pressure equalization as well as somewhere for water to go.
-- Vaseline on all enclosure gaskets. This prevents the gasket material from drying out so quickly, but also seals better.
+- Lubricant on all enclosure gaskets. This prevents the gasket material from drying out so quickly, but also seals better. I have been using Vaseline which is not the best for rubber-based gaskets. 
 - Clearly label power. It should be easy to walk someone through powering the unit down over the phone, or ideally intuitively for them. Also label the unit so it is clear what it is, and I like to include contact information inside.
 - After trying several antenna types. I prefer the Alfa 5dbi Omni antennas. They are a good price point, they come with an N Type male connector which connects directly to through-mount antenna connectors. They are short, which is good for wind load and stresses on the case. They work well as a good wide-beam omnidirectional antenna for general purpose locations.
 
@@ -88,7 +88,7 @@ PugetMesh.org - Paine-SF East| rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 wat
 ![Paine East Node](/media/PugetMesh_PaineEast.jpg)
 
 Click to enlarge and see the larger coverage map.
-[![Capitol Hill  Coverage Map](/media/PaineEast_sml.png)](https://www.heywhatsthat.com/?view=QAXF4HU7)
+[![Capitol Hill Coverage Map](/media/PaineEast_sml.png)](https://www.heywhatsthat.com/?view=QAXF4HU7)
 
 ## Skyway Radio
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
@@ -96,13 +96,15 @@ Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcas
 PugetMesh.org - Skyway Radio | rak4631 | Alfa 5dbi Omni | 2x 18650 (3ah/ea) | 10 watt | LONG_FAST | 20 | ALL
 
 
-[Coverage Map](https://www.heywhatsthat.com/?view=DS4BGWQM)
+Click to enlarge and see the larger coverage map.
+[![Skyway Radio Coverage Map](/media/SkywayRadioNodeMap.png)](https://www.heywhatsthat.com/?view=DS4BGWQM)
 
 ## Clearview
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
 PugetMesh.org - Clearview | rak4631 | Alfa 5dbi Omni | 2x 18650 (3ah/ea) | 2 watt | LONG_FAST | 20 | ALL
 
-Host asked not to be named.
+Host asked not to be named. Location shared below is approxmiate.
 
-[Coverage Map](https://www.heywhatsthat.com/?view=BAXN1N63)
+Click to enlarge and see the larger approximate coverage map.
+[![Clearview Coverage Map](/media/ClearviewNodeMap.png)](https://www.heywhatsthat.com/?view=BAXN1N63)

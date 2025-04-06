@@ -9,6 +9,21 @@ It is important to know that Meshtastic is under rapid development, and is not y
 * **What firmware version should I flash my device with?**
     1. It is best to ask our Discord since this answer constantly changes, and not always forward/newer.
     1. There have been many times that the online firmware documentation does not include known issues.
+* **Where can I find the QR code to join the local mesh?**
+    1. We recommend not using QR codes for adding channels in Meshtastic. QR codes silently change other settings including the output power of your radio and hop count.
+    1. These issues are problematic for many reasons so we have stopped recommending their use. See [Here](/meshtastic/config/#local-channels) for more info.
+* **Should I use a ROUTER or CLIENT role?**
+    1. Short answer: Almost always CLEINT.
+    1. CLIENT nodes still contribute to the mesh, they will repeat messages they hear as long as they only hear the message once. 
+    1. CLIENT_MUTE is a good choice if you have many nodes at home but only want one (the best positioned node) to contribute back to the mesh by repeating messages. 
+    1. ROUTER and ROUTER_LATE nodes ALWAYS repeat every message they hear. This can be good unless there are multiple ROUTER mode nodes covering the same area.
+* **I have determined that I need to use a ROUTER mode role. How can I be a responsible ROUTER node owner?**
+    1. Double check that a ROUTER mode (ROUTER/ROUTER_LATE/etc) is indeed needed. Let the node run for a while (days) and see how many ROUTER mode nodes are in your node list. Consider that when making your decision.
+    1. The worst thing a ROUTER mode node owner can do is set their node and forget it. Be available to others in the event that your node is causing problems.
+    1. Share contact info in your long name, and/or check your node DM's, and/or consider joining the "Meshtastic Router Owners" channel on our Discord. 
+    1. Always share the accurate position (including elevation) of your node. This helps others connect to it and also helps prevent multiple ROUTERS in the same area.
+    1. Backup power. We want this mesh to be available when other forms of communication are down. Solar power + battery is best, but even just a battery when wall powered ensures the node will continue to run for a couple of weeks.
+    1. Frequently check in with the community. As we continue to grow, we hope to gain access to better and better locations for ROUTER mode nodes. As this happens, we will likely need to transition older ROUTERS to something else.
 * **What is LongFast and how is it different from LONG_FAST?**
     1. LongFast is the name of the default channel when using the LONG_FAST modem preset.
     1. LONG_FAST is a modem preset, along with MEDIUM_FAST, SHORT_FAST, and others. These are a collection of settings that tell the LoRa radio how to send and receive data over RF.

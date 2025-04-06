@@ -19,7 +19,7 @@ Commonly, users have a Meshtastic radio paired with their phone via bluetooth, t
 When users are **not** within range of each other, they can utilize the mesh that meshtastic offers. Your messages do not have to be received directly by another user, they can hop over users of the network until they arrive at their destination or stop trying. Be sure to review the New User Expectation above if you are a first time user.
 
 ### Understanding "hops"
-Meshtastic uses the term "hop" to refer to the number of nodes between the sender and receiver. It is always recommended that you use the lowest hop count possible that allows you to reach your intended recipient. As you can see below, using the default hop count of 3 means that your messages can cover many many miles. 
+Meshtastic uses the term "hop" to refer to the number of nodes between the sender and receiver. It is always recommended that you use the lowest hop count possible that allows you to reach your intended recipient. As you can see below, using the default hop count of 3 means that your messages can cover many many miles.
 
 ![Meshtastic hops diagram](/media/meshtastic_max-hops.png)
 
@@ -133,11 +133,18 @@ The following changes are necessary for your node to appear on the map.
     * **Approximate Location:** Choose a value you are comfortable with.
 
 ---
-## Alternate Channels
+## Local Channels
 
 !!! Warning
 
     We no longer use or recommend using QR codes or Meshtastic URL's for sharing channels. These methods can also modify your LoRa settings such as hop count and "OK to MQTT" with no ability for the user to verify in the app. For these reasons we are sharing the channel name and key directly. You must enter both of these correctly in order to join the channel.
+
+### LongFast Channel
+This is the default channel and the channel that we use the most in our area. Note: This channel has some special considerations in the firmware so you may see inconsistent behavior between settings for this when set as your default channel vs other channels. As always, channel names are case sensitive.
+
+| Channel Name | PSK | Modem Preset | Slot | Ham Mode
+| --- | --- | --- | --- | --- |
+| LongFast | AQ== | LONG_FAST | 20 | Off
 
 ### PS-Mesh! Channel
 There are more channels than the default LongFast, one of them is our PS-Mesh! channel which you are welcome to join and is related to this group. be sure to pay attention when adding the channel so you don't replace your current channels.
