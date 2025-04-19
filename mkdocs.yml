@@ -13,6 +13,7 @@ nav:
     - FAQ: meshtastic/faq.md
     - Configuration: meshtastic/config.md
     - Equipment: meshtastic/equipment.md
+  - MeshCore: meshcore/index.md
   - About: about.md
   - Other: other.md
 
