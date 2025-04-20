@@ -14,7 +14,7 @@ Setting | Value
 ---: | :---
 Frequency | 910.525 MHz
 Bandwidth | 250 kHz
-Spreading Factor | 10
+Spreading Factor | 11
 Coding Rate | 5
 
 ## Map
