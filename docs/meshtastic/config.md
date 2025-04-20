@@ -149,12 +149,12 @@ This is the default channel and the channel that we use the most in our area. No
 | --- | --- | --- | --- | --- |
 | LongFast | AQ== | LONG_FAST | 20 | Off
 
-### LongFast
+### ShortFast
 This is the default channel, and slot, for the ShortFast modem preset.
 
 | Channel Name | PSK | Modem Preset | Slot | Ham Mode
 | --- | --- | --- | --- | --- |
-| LongFast | AQ== | SHORT_FAST | 68 | Off
+| ShortFast | AQ== | SHORT_FAST | 68 | Off
 
 ### PS-Mesh!
 There are more channels than the default LongFast, one of them is our PS-Mesh! channel which you are welcome to join and is related to this group. be sure to pay attention when adding the channel so you don't replace your current channels.
