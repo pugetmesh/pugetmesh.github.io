@@ -68,6 +68,8 @@ On [this map](https://meshtastic.davekeogh.com/?lat=47.73284666107599&lng=237.66
 - Click on a Node for Node-specific information.
 - [Visit our guide](/meshtastic/config/#get-on-the-map) to see how to get onto the public MQTT maps.
 
+There are now other maps and tools pulling from our local MQTT server. Want to see if your messages are making it to the mesh? You can do that on our Discord, or [with Adam Gessaman's tool](https://meshinfo.gessaman.com/chat.html). (Checkout the other tabs too!)
+
 <!--
 ### Collaborative Map
 

@@ -1,5 +1,5 @@
 # Meshtastic Equipment
-The following sections detail our builds and installations around the area. Additionally you will find approximate coverage maps of each node. Use these to help get connected if you are inside the coverage areas (red). 
+The following sections detail our builds and installations around the area. Additionally you will find approximate coverage maps of each node. Use these to help get connected if you are inside the coverage areas (red). PLEASE NOTE: Some nodes are on LongFast, some are on ShortFast, some have radios on both (not bridged). 
 
 ### Build Tips:
 
@@ -15,37 +15,35 @@ The following sections detail our builds and installations around the area. Addi
 - After trying several antenna types. I prefer the Alfa 5dbi Omni antennas. They are a good price point, they come with an N Type male connector which connects directly to through-mount antenna connectors. They are short, which is good for wind load and stresses on the case. They work well as a good wide-beam omnidirectional antenna for general purpose locations.
 
 ---
-## Firestation 61 (Shoreline ACS, Shoreline)
+## Paine East (Everett)
 
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-Shoreline ACS | rak4631 | Hexa Boost 8dbi Omni | 2x 18650 (6ah) | 6 watt | LONG_FAST | 20 | ALL
+PugetMesh.org - Paine East | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | {==LONG_FAST==} | 20 | ALL
+PugetMesh.org - Paine-SF East| rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | {==SHORT_FAST==} | 68 | ALL
 
-![Shoreline ACS Meshtastic Node](/media/ShorelineACS_MeshtasticNode.png)
+![Paine East Node](/media/PugetMesh_PaineEast.jpg)
 
 Click to enlarge and see the larger coverage map.
-[![Maple Leaf Node Coverage Map](/media/Firestation61_sml.png)](https://www.heywhatsthat.com/?view=X2SS81R7)
+[![Capitol Hill Coverage Map](/media/PaineEast_sml.png)](https://www.heywhatsthat.com/?view=QAXF4HU7)
 
 ---
-## Maple Leaf Reservoir (Seattle)
+## Clearview (Out of Order as of April 2025)
+Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
+PugetMesh.org - Clearview | rak4631 | Alfa 5dbi Omni | 2x 18650 (3ah/ea) | 2 watt | {==LONG_FAST==} | 20 | ALL
+
+Host asked not to be named. Location shared below is approxmiate.
+
+Click to enlarge and see the larger approximate coverage map.
+[![Clearview Coverage Map](/media/ClearviewNodeMap.png)](https://www.heywhatsthat.com/?view=BAXN1N63)
+
+---
+## North City, Shoreline (Out of Order as of April 2025)
 
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - Maple Leaf Apartments | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | LONG_FAST | 20 | ALL
-
-![Puget Mesh Node Version 3](/media/PugetMesh_NodeV3.png)
-[![Puget Mesh Maple Leaf Meshtastic Node](/media/MLA_Node.jpg)](/media/MLA_Node.jpg)
-
-Click to enlarge and see the larger coverage map.
-[![Maple Leaf Node Coverage Map](/media/MapleLeaf_sml.png)](https://www.heywhatsthat.com/?view=FGCQDXDC)
-
-
----
-## North City (Shoreline)
-
-Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
-:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - North City | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | LONG_FAST | 20 | ALL
+PugetMesh.org - North City | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | {==LONG_FAST==} | 20 | ALL
 
 This location uses the same node build as Maple Leaf Reservoir.
 
@@ -53,14 +51,37 @@ Click to enlarge and see the larger coverage map.
 [![Maple Leaf Node Coverage Map](/media/NorthCity_sml.png)](/media/NorthCity_big.png)
 
 ---
+## Firestation 61 (Shoreline ACS, Shoreline)
+
+Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
+Shoreline ACS | rak4631 | Hexa Boost 8dbi Omni | 2x 18650 (3ah/each) | 6 watt | {==LONG_FAST==} | 20 | ALL
+
+![Shoreline ACS Meshtastic Node](/media/ShorelineACS_MeshtasticNode.png)
+
+Click to enlarge and see the larger coverage map.
+[![Maple Leaf Node Coverage Map](/media/Firestation61_sml.png)](https://www.heywhatsthat.com/?view=X2SS81R7)
+
+---
+## Maple Leaf Apartments (Seattle)
+
+Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
+PugetMesh.org - Maple Leaf Apartments | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | {==SHORT_FAST==} | 68 | ALL
+
+![Puget Mesh Node Version 3](/media/PugetMesh_NodeV3.png)
+[![Puget Mesh Maple Leaf Meshtastic Node](/media/MLA_Node.jpg)](/media/MLA_Node.jpg)
+
+Click to enlarge and see the larger coverage map.
+[![Maple Leaf Node Coverage Map](/media/MapleLeaf_sml.png)](https://www.heywhatsthat.com/?view=FGCQDXDC)
+
+---
 ## Capitol Hill (Seattle)
 
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - Capitol Hill | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | LONG_FAST | 20 | ALL
-PugetMesh.org - Capitol Hill | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | SHORT_FAST | 68 | ALL
-
-Coming soon.
+PugetMesh.org - Capitol Hill | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | {==LONG_FAST==} | 20 | ALL
+PugetMesh.org - Capitol Hill | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | {==SHORT_FAST==} | 68 | ALL
 
 Click to enlarge and see the larger coverage map.
 [![Capitol Hill  Coverage Map](/media/CapitolHill_sml.jpg)](https://www.heywhatsthat.com/?view=T29861XC)
@@ -70,41 +91,17 @@ Click to enlarge and see the larger coverage map.
 
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - Beacon Hill| rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | LONG_FAST | 20 | ALL
-
-This location uses the same node build as Maple Leaf Reservoir.
+PugetMesh.org - Beacon Hill| rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | {==LONG_FAST==} | 20 | ALL
 
 Click to enlarge and see the larger coverage map.
 [![Beacon Hill  Coverage Map](/media/BeaconHill_sml.jpg)](https://www.heywhatsthat.com/?view=CD5GQ9BW)
 
 ---
-## Paine East (Everett)
-
-Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
-:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - Paine East | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | LONG_FAST | 20 | ALL
-PugetMesh.org - Paine-SF East| rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | SHORT_FAST | 68 | ALL
-
-![Paine East Node](/media/PugetMesh_PaineEast.jpg)
-
-Click to enlarge and see the larger coverage map.
-[![Capitol Hill Coverage Map](/media/PaineEast_sml.png)](https://www.heywhatsthat.com/?view=QAXF4HU7)
-
 ## Skyway Radio
+
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - Skyway Radio | rak4631 | Alfa 5dbi Omni | 2x 18650 (3ah/ea) | 10 watt | LONG_FAST | 20 | ALL
-
+PugetMesh.org - Skyway Radio | rak4631 | Alfa 5dbi Omni | 2x 18650 (3ah/each) | 10 watt | {==SHORT_FAST==} | 68 | ALL
 
 Click to enlarge and see the larger coverage map.
 [![Skyway Radio Coverage Map](/media/SkywayRadioNodeMap.png)](https://www.heywhatsthat.com/?view=DS4BGWQM)
-
-## Clearview
-Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
-:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - Clearview | rak4631 | Alfa 5dbi Omni | 2x 18650 (3ah/ea) | 2 watt | LONG_FAST | 20 | ALL
-
-Host asked not to be named. Location shared below is approxmiate.
-
-Click to enlarge and see the larger approximate coverage map.
-[![Clearview Coverage Map](/media/ClearviewNodeMap.png)](https://www.heywhatsthat.com/?view=BAXN1N63)

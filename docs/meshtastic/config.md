@@ -7,6 +7,7 @@ Frequency/Preset standardizations for the area:
 - **LoRa**: Modem Preset=LONG_FAST, Frequency slot=20 (906.875MHz)
 - **LoRa**: Modem Preset=MEDIUM_FAST, Frequency slot=45 (913.125MHz)
 - **LoRa**: Modem Preset=SHORT_FAST, Frequency slot=68 (918.875MHz)
+- **LoRa**: 70cm Ham Mode, Licensed amateur radio=yes, Modem Preset=LONG_FAST, Frequency slot=4 (433.875MHz)
 
 ## Common Configurations
 
@@ -23,6 +24,7 @@ Meshtastic uses the term "hop" to refer to the number of nodes between the sende
 
 ![Meshtastic hops diagram](/media/meshtastic_max-hops.png)
 
+<!---
 ### CLIENT_MUTE
 One common setup people have at home is a Meshtastic node in their house connected to their phone via bluetooth (Node A). They have another node, often solar powered, located on a roof or at a high point on their property (Node B). 
 
@@ -31,7 +33,7 @@ In this example below, we have introduced Node B which is solar powered and you 
 ![Meshtastic CLIENT_MUTE example](/media/meshtastic_client-mute-example.png)
 
 This is a common situation if Node A is indoors and Node B is on your roof. You can choose to set Node A to CLIENT_MUTE, and increase the hop count to 4. CLIENT_MUTE prevents Node A from repeating any messages that it hears which allows Node B to repeat them (and much more successfully be heard since it is mounted in a better location).
-
+--->
 ## Recommended Configurations
 Can't find a setting?  Check the [Meshtastic docs](https://meshtastic.org/docs/configuration/) for more info - each page has tabs for iOS, Android, CLI, and Web.
 
@@ -139,28 +141,36 @@ The following changes are necessary for your node to appear on the map.
 
     We no longer use or recommend using QR codes or Meshtastic URL's for sharing channels. These methods can also modify your LoRa settings such as hop count and "OK to MQTT" with no ability for the user to verify in the app. For these reasons we are sharing the channel name and key directly. You must enter both of these correctly in order to join the channel.
 
-### LongFast Channel
+
+### LongFast
 This is the default channel and the channel that we use the most in our area. Note: This channel has some special considerations in the firmware so you may see inconsistent behavior between settings for this when set as your default channel vs other channels. As always, channel names are case sensitive.
 
 | Channel Name | PSK | Modem Preset | Slot | Ham Mode
 | --- | --- | --- | --- | --- |
 | LongFast | AQ== | LONG_FAST | 20 | Off
 
-### PS-Mesh! Channel
+### LongFast
+This is the default channel, and slot, for the ShortFast modem preset.
+
+| Channel Name | PSK | Modem Preset | Slot | Ham Mode
+| --- | --- | --- | --- | --- |
+| LongFast | AQ== | SHORT_FAST | 68 | Off
+
+### PS-Mesh!
 There are more channels than the default LongFast, one of them is our PS-Mesh! channel which you are welcome to join and is related to this group. be sure to pay attention when adding the channel so you don't replace your current channels.
 
-| Channel Name | PSK |
-| --- | --- |
-| PS-Mesh! | jHrxpQOq6dEBC5Ldr3ULrQ== |
+| Channel Name | PSK | Modem Preset | Slot | Ham Mode
+| --- | --- | --- | --- | --- |
+| PS-Mesh! | jHrxpQOq6dEBC5Ldr3ULrQ== | LONG_FAST | 20 | Off
 
-### PS-MQTT! Channel
+### PS-MQTT!
 
 If you wish to communicate with others in the area over MQTT, use this channel. You will need to enable "OK to MQTT" under the LoRa settings, and you will need to enable uplink and downlink for the channel. Reminder that connecting your node to MQTT does send your data to the mqtt server. You do not need to directly connect your node to MQTT for this to work. 
 
-| Channel Name | PSK |
-| --- | --- |
-| PS-MQTT! | mqttmqttmqttmqttmqttQQ== |
+| Channel Name | PSK | Modem Preset | Slot | Ham Mode
+| --- | --- | --- | --- | --- |
+| PS-MQTT! | mqttmqttmqttmqttmqttQQ== | LONG_FAST | 20 | Off
 
 
-All Messages sent to PS-MQTT! (that are received by a node connected to the MQTT server) are published to our ps-mqtt Discord Channel.
+All Messages sent to PS-MQTT! (that are received by a node connected to the MQTT server) are published to our ps-mqtt Discord Channel. Select the thread you want to view at the tip right. 
 <iframe src="https://e.widgetbot.io/channels/1291139029814739084/1319416890820395019" allow="clipboard-write; fullscreen" height="550" width="100%"></iframe>
