@@ -56,7 +56,6 @@ MQTT [Message Queue Telemetry Transport](https://en.wikipedia.org/wiki/MQTT) is 
 - Your node info and channel messages are sent to MQTT servers. Either by you directly connecting your node to a server, or via other nodes on the mesh that uplink (send). Enabling "OK to MQTT" on your node helps ensure that your node info/messages is sent to MQTT by others (Note: This is just a flag that nodes optionally respect, so disabling this feature does not entirely prevent it from being sent).
 - If your node is connected to an MQTT server, please do not enable downlink on LongFast (or other channels without consideration). This causes a large increase in traffic from your node, which impacts the mesh around you. For nodes not connected to an MQTT server, the "Ignore MQTT" setting helps block this traffic, but this is not enabled by default.
 
-
 </br>
 **Local Map**
 

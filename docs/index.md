@@ -15,6 +15,10 @@ Consider joining our Discord. It is a great place connect with others in our are
 [![Discord Widget](https://discord.com/api/guilds/1291139029814739084/widget.png?style=banner2)](https://discord.gg/ANvUg3AyZt)
 ---
 ## Current Events:
+### May 2025 Meshtastic ShortFast Experiment!
+For the Month of May we are trialing SHORT_FAST/ShortFast. We encourage all users to move their nodes over for the whole month of May. [More information can be found on the event page here.](/meshtastic/may2025)
+![May 2025 Meshtastic ShortFast Experiment](/media/meshtastic/May2025-SF-Announcement.jpg)
+
 ### Weekly Meshtastic Net: (Canceled April 21st - May 5th 2025)
 Join us every Monday at 6:13:45PM for our Meshtastic Net. Listen for us on the public default LongFast channel, on the default LONG_FAST frequency slot 20. Learn more [HERE](/meshtastic/#weekly-net).
 
