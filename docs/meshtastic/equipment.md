@@ -19,8 +19,8 @@ The following sections detail our builds and installations around the area. Addi
 
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - Paine East | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | {==LONG_FAST==} | 20 | ALL
-PugetMesh.org - Paine East | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | {==MEDIUM_FAST==} | (907.845 Freq Override) | ALL
+PugetMesh.org - Paine East | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | {==LONG_FAST==} | 20 | CORE_PORTNUMS_ONLY
+(OFFLINE) | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | N/A | N/A | N/A
 
 ![Paine East Node](/media/PugetMesh_PaineEast.jpg)
 
@@ -28,10 +28,10 @@ Click to enlarge and see the larger coverage map.
 [![Capitol Hill Coverage Map](/media/PaineEast_sml.png)](https://www.heywhatsthat.com/?view=QAXF4HU7)
 
 ---
-## Clearview (Out of Order as of April 2025)
+## Clearview
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - Clearview | rak4631 | Alfa 5dbi Omni | 2x 18650 (3ah/ea) | 6 watt | {==MEDIUM_FAST==} | (907.845 Freq Override) | ALL
+PugetMesh.org - Clearview | rak4631 | Alfa 5dbi Omni | 2x 18650 (3ah/ea) | 6 watt | {==LONG_FAST==}| 20 | CORE_PORTNUMS_ONLY
 
 Host asked not to be named. Location shared below is approximate.
 
@@ -39,16 +39,14 @@ Click to enlarge and see the larger approximate coverage map.
 [![Clearview Coverage Map](/media/ClearviewNodeMap.png)](https://www.heywhatsthat.com/?view=BAXN1N63)
 
 ---
-## North City, Shoreline (Out of Order as of April 2025)
+## North City, Shoreline
 
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - North City | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | {==MEDIUM_FAST==} | (907.845 Freq Override) | ALL
-
-This location uses the same node build as Maple Leaf Reservoir.
+PugetMesh.org - North City | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | {==LONG_FAST==} | 20| CORE_PORTNUMS_ONLY
 
 Click to enlarge and see the larger coverage map.
-[![Maple Leaf Node Coverage Map](/media/NorthCity_sml.png)](/media/NorthCity_big.png)
+[![North City Node Coverage Map](/media/NorthCity_sml.png)](/media/NorthCity_big.png)
 
 ---
 ## Firestation 61 (Shoreline ACS, Shoreline)
@@ -60,14 +58,14 @@ Shoreline ACS | rak4631 | Alfa 5dbi Omni | 2x 18650 (3ah/ea) | 2 watt | {==LONG_
 <!---![Shoreline ACS Meshtastic Node](/media/ShorelineACS_MeshtasticNode.png)--->
 
 Click to enlarge and see the larger coverage map.
-[![Maple Leaf Node Coverage Map](/media/Firestation61_sml.png)](https://www.heywhatsthat.com/?view=X2SS81R7)
+[![Shoreline ACS Node Coverage Map](/media/Firestation61_sml.png)](https://www.heywhatsthat.com/?view=X2SS81R7)
 
 ---
 ## Maple Leaf Apartments (Seattle)
 
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - Maple Leaf Apartments | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | {==LONG_FAST==} | 20 | ALL
+PugetMesh.org - Maple Leaf Apartments | rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | {==LONG_FAST==} | 20 | CORE_PORTNUMS_ONLY
 
 ![Puget Mesh Node Version 3](/media/PugetMesh_NodeV3.png)
 [![Puget Mesh Maple Leaf Meshtastic Node](/media/MLA_Node.jpg)](/media/MLA_Node.jpg)
@@ -80,8 +78,8 @@ Click to enlarge and see the larger coverage map.
 
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - Capitol Hill | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | {==LONG_FAST==} | 20 | ALL
-PugetMesh.org - Capitol Hill | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | {==MEDIUM_FAST==} | (907.845 Freq Override) | ALL
+PugetMesh.org - Capitol Hill | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | {==LONG_FAST==} | 20 | CORE_PORTNUMS_ONLY
+PugetMesh.org - Capitol Hill | rak4631 | Alfa 5dbi Omni | 1x lipo (5ah) | 10 watt (shared) | {==MEDIUM_FAST==} | (907.845 Freq Override) | CORE_PORTNUMS_ONLY
 
 Click to enlarge and see the larger coverage map.
 [![Capitol Hill  Coverage Map](/media/CapitolHill_sml.jpg)](https://www.heywhatsthat.com/?view=T29861XC)
@@ -91,7 +89,7 @@ Click to enlarge and see the larger coverage map.
 
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - Beacon Hill| rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | {==LONG_FAST==} | 20 | ALL
+PugetMesh.org - Beacon Hill| rak4631 | Alfa 5dbi Omni | 1x 18650 (3ah) | 6 watt | {==LONG_FAST==} | 20 | CORE_PORTNUMS_ONLY
 
 Click to enlarge and see the larger coverage map.
 [![Beacon Hill  Coverage Map](/media/BeaconHill_sml.jpg)](https://www.heywhatsthat.com/?view=CD5GQ9BW)
@@ -101,7 +99,7 @@ Click to enlarge and see the larger coverage map.
 
 Node Name | Radio | Antenna | Battery | Solar | Modem Preset | Slot | Rebroadcast Mode
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-PugetMesh.org - Skyway Radio | rak4631 | Alfa 5dbi Omni | 2x 18650 (3ah/each) | 10 watt | {==MEDIUM_FAST==} | (907.845 Freq Override) | ALL
+PugetMesh.org - Skyway Radio | rak4631 | Alfa 5dbi Omni | 2x 18650 (3ah/each) | 10 watt | {==MEDIUM_FAST==} | (907.845 Freq Override) | CORE_PORTNUMS_ONLY
 
 Click to enlarge and see the larger coverage map.
 [![Skyway Radio Coverage Map](/media/SkywayRadioNodeMap.png)](https://www.heywhatsthat.com/?view=DS4BGWQM)
