@@ -8,13 +8,15 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - AREDN: aredn/index.md
+  - MeshCore: 
+    - Overview: meshcore/index.md
+    - Equipment: meshcore/equipment.md
   - Meshtastic:
     - Overview: meshtastic/index.md
     - FAQ: meshtastic/faq.md
     - Configuration: meshtastic/config.md
     - Equipment: meshtastic/equipment.md
     - May 2025 - ShortFast Experiment: meshtastic/may2025.md
-  - MeshCore: meshcore/index.md
   - About: about.md
   - Other: other.md
 
