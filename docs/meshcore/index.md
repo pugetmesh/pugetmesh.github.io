@@ -23,3 +23,7 @@ Be sure to checkout the [MeshCore Map](https://meshcore.co.uk/map.html)
 ![MeshCore Map as of April 2025](/media/meshcore/Meshcore_2025-04-18.png)
 
 
+## Member Projects
+
+### Ciesen's "meshcoretomqtt"
+[https://github.com/cisien/meshcoretomqtt/](https://github.com/cisien/meshcoretomqtt/) "A python based script to send meshcore debug and packet capture data to MQTT for analysis. Requires meshcore repeater to be connected to a raspberry pi, server or similar linux device able to run python."
