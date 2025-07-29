@@ -17,11 +17,13 @@ Are you interested in joining the mesh? You will need to purchase a LoRa radio f
 ### Radio Settings
 Use these settings to connect to other nodes in our area. More information about these settings can be [found in the MeshCore documentation](https://github.com/ripplebiz/MeshCore/blob/main/docs/faq.md#51-q-what-are-bw-sf-and-cr).
 
+These settings can be found in the MeshCore app listed as `USA (Narrow)`
+
 Setting | Value
 ---: | :---
 Frequency | 910.525 MHz
-Bandwidth | 250 kHz
-Spreading Factor | 11
+Bandwidth | 62.5 kHz
+Spreading Factor | 7
 Coding Rate | 5
 
 ## Map
