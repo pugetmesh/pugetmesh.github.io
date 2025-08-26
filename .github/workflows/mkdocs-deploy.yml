@@ -45,7 +45,7 @@ jobs:
       - run: mkdocs build --verbose --site-dir public
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           # Upload 'public' directory
           path: 'public'
