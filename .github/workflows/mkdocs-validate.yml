@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 1 # Shallow fetch during validations, breaks mkdocs-git-revision-date-localized-plugin
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
           cache: 'pip' # caching pip dependencies
