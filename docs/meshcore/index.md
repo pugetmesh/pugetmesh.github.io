@@ -17,7 +17,7 @@ Are you interested in joining the mesh? You will need to purchase a LoRa radio f
 ### Radio Settings
 Use these settings to connect to other nodes in our area. More information about these settings can be [found in the MeshCore documentation](https://github.com/ripplebiz/MeshCore/blob/main/docs/faq.md#51-q-what-are-bw-sf-and-cr).
 
-These settings can be found in the MeshCore app listed as `USA (Narrow)`
+These settings can be found in the MeshCore app listed as `USA/Canada (Recommended)`
 
 Setting | Value
 ---: | :---
@@ -26,13 +26,24 @@ Bandwidth | 62.5 kHz
 Spreading Factor | 7
 Coding Rate | 5
 
-## Map
-Be sure to checkout the official [MeshCore Map](https://meshcore.co.uk/map.html) as well. Here is a screenshot of the local area in June 2025.
 
-![MeshCore Map as of April 2025](/media/meshcore/Meshcore_2025-06-25.png)
+## Channels
+Topic | Key
+---: | :---
+ham radio | be2020159134d293822051194bfbaa08
+testing | 1321f3257ae4f7125204096e15b34c99
+testingbot | b7649d4716d918026af4e0f4068f7a03
+
+## Map
+Be sure to checkout the official [MeshCore Map](https://meshcore.co.uk/map.html) as well. Here is a screenshot of the local area in September 2025.
+
+![MeshCore Map as of April 2025](/media/meshcore/Meshcore_2025-09-07.png)
 
 
 ## Member Projects
+
+### MeshExplorer
+[https://map.w0z.is](https://map.w0z.is) "MeshExplorer is a web-based visualization tool for exploring and monitoring mesh networks. It provides real-time mapping of network nodes, message tracking, and statistical analysis for MeshCore and Meshtastic networks." (source: MeshExplorer Info modal)
 
 ### Ciesen's "meshcoretomqtt"
 [https://github.com/cisien/meshcoretomqtt/](https://github.com/cisien/meshcoretomqtt/) "A python based script to send meshcore debug and packet capture data to MQTT for analysis. Requires meshcore repeater to be connected to a raspberry pi, server or similar linux device able to run python."
