@@ -35,9 +35,9 @@ testing | 1321f3257ae4f7125204096e15b34c99
 testingbot | b7649d4716d918026af4e0f4068f7a03
 
 ## Map
-Be sure to checkout the official [MeshCore Map](https://meshcore.co.uk/map.html) as well. Here is a screenshot of the local area in September 2025.
+Here is an embed of the live map of nodes from [MeshExplorer](https://map.w0z.is). Be sure to checkout the official [MeshCore Map](https://meshcore.co.uk/map.html) as well. 
 
-![MeshCore Map as of April 2025](/media/meshcore/Meshcore_2025-09-07.png)
+<iframe src="https://map.w0z.is/embed/map?lat=47.81315&lng=-122.77222" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 
 ## Member Projects
