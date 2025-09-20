@@ -1,4 +1,4 @@
-# Puget Mesh Meschcore Repeater Setup
+# Puget Mesh Meshcore Repeater Setup
 
 These are guidelines to help you setup a new Meshcore repeater which will work well within Puget Mesh. Repeaters in Meshcore are encouraged, each enhances the coverage of the mesh.
 
@@ -10,9 +10,9 @@ A repeater with an omnidirectional antenna (which is most of them) needs to have
 
 Before you get started, it is good to understand every Meshcore device has a set of private and public keys for encrypting traffic.  The public key is used within the Mesh as the unique ID of your node. You can even search by public key in the [MeshExplorer Search Tool https://map.w0z.is/search](https://map.w0z.is/search).
 
-Meshcore uses the first two chracters of your public key on the mesh as the abbreviated id of your repeater when viewing the paths messages have travelled. It is not a _strict_ requirement, but unique prefixes are helpful in the larger Puget Mesh system.
+Meshcore uses the first two characters of your public key on the mesh as the abbreviated id of your repeater when viewing the paths messages have traveled. It is not a _strict_ requirement, but unique prefixes are helpful in the larger Puget Mesh system.
 
-Meshcore's firmware can not know what prefixes are already in use, and it will generate perfectly good random public and private keys with a public key prefix that is already in use by another repeater. 
+Meshcore's firmware can not know what prefixes are already in use, and it will generate perfectly good random public and private keys with a public key prefix that is already in use by another repeater.
 
 In the Repeater Setup steps you will check if your auto-generated public key has a unique prefix and it not, you will follow the steps to create new keys using the [Meshcore Custom Key Generator site https://gessaman.com/mc-keygen/](https://gessaman.com/mc-keygen/).
 
@@ -56,11 +56,11 @@ If your auto-generated key did not have a unique prefix, you should have generat
 Before you put your repeater up on a pole where you can't easily reach it, practice remotely managing it with a Meshcore companion device. With your Meshcore companion app open:
 
 1. Go to Contact
-2. In the menu, select Add Contact and fill in the form:
-  - Contact Type: Repeater
-  - Name: Your Repeater Name
-  - Public Key: The public key you generated earlier.
-  - Save the contact (check mark)
+2. In the menu, select Add Contact and fill in the form:  
+    **Contact Type**: Repeater  
+    **Name**: Your Repeater Name  
+    **Public Key**: The public key you generated earlier  
+3. Save the contact (check mark)  
 4. Open the contact in the list
 5. Select Remote Management (and wait the seconds..)
 6. Put in your admin password and Login
