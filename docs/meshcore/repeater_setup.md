@@ -1,4 +1,4 @@
-# Puget Mesh Meshcore Repeater Setup
+# Repeater Setup
 
 These are guidelines to help you setup a new Meshcore repeater which will work well within Puget Mesh. Repeaters in Meshcore are encouraged, each enhances the coverage of the mesh.
 
