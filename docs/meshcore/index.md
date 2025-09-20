@@ -26,8 +26,12 @@ Bandwidth | 62.5 kHz
 Spreading Factor | 7
 Coding Rate | 5
 
+## Repeaters
+
+Meshcore works well with neighborhood repeaters, increase the range and reliability of Puget Mesh by setting up your own repeater. The [New Puget Mesh Meschcore Repeater Setup Guide](repeater_setup.md) walks you through the process.
 
 ## Channels
+
 Topic | Key
 ---: | :---
 ham radio | be2020159134d293822051194bfbaa08
