@@ -1,4 +1,4 @@
-mkdocs-material[imaging]==9.6.19
+mkdocs-material[imaging]==9.6.20
 mkdocs-git-revision-date-localized-plugin==1.4.7
 mkdocs-git-committers-plugin-2==2.5.0
 mkdocs-table-reader-plugin==3.1.0
