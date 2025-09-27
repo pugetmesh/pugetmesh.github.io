@@ -28,11 +28,16 @@ Coding Rate | 5
 
 
 ## Channels
+Hashtag topic keys are automatically calculated by the system. The keys are included to help users on devices that cannot type the # (hash) symbol or lack the key calculation functionality.
+
 Topic | Key
 ---: | :---
-ham radio | be2020159134d293822051194bfbaa08
-testing | 1321f3257ae4f7125204096e15b34c99
-testingbot | b7649d4716d918026af4e0f4068f7a03
+#bot | eb50a1bcb3e4e5d7bf69a57c9dada211
+#emergency | e1ad578d25108e344808f30dfdaaf926
+#hamradio | 83c8b01997654265938da8765cbc7db9
+#queer | 5754476f162d93bbee3de0efba136860
+#sports | e8ee81f3aabf105d9ba2d2d4bd94fe4a
+#testing | cde5e82cf515647dcb547a79a4f065d1
 
 ## Map
 Here is an embed of the live map of nodes from [MeshExplorer](https://map.w0z.is). Be sure to checkout the official [MeshCore Map](https://meshcore.co.uk/map.html) as well. 
