@@ -1,7 +1,7 @@
 # FAQ
 
 ## New User Expectations
-It is important to know that Meshtastic is under rapid development, and is not yet a *polished* product. There are bugs and quirks but that is part of the fun. If you have just turned on your Meshtastic device for the first time, get it in a good location (being next to a window can help) and let it run overnight. It takes time to see other nodes, and for other nodes to see you. Some users choose to share their position (GPS or fixed coordinates) which will appear on the maps. There are a few public maps available showing nodes (that choose to share their position) but we use [https://meshtastic.davekeogh.com/](https://meshtastic.davekeogh.com/).
+It is important to know that Meshtastic is under rapid development, and is not yet a *polished* product. There are bugs and quirks but that is part of the fun. If you have just turned on your Meshtastic device for the first time, get it in a good location (being next to a window can help) and let it run overnight. It takes time to see other nodes, and for other nodes to see you. Some users choose to share their position (GPS or fixed coordinates) which will appear on the maps. There are a few public maps available showing nodes (that choose to share their position) but we use [https://meshtastic.pugetmesh.org/](https://meshtastic.pugetmesh.org/).
 
 
 ## FAQ's
@@ -29,7 +29,7 @@ It is important to know that Meshtastic is under rapid development, and is not y
     1. LONG_FAST is a modem preset, along with MEDIUM_FAST, SHORT_FAST, and others. These are a collection of settings that tell the LoRa radio how to send and receive data over RF.
 * **How do I know if I am connected to the mesh?**
     1. Seeing other nodes appear in your node list is a good indicator.
-    1. Allow your node to run overnight and search for it (long name, short name, or either ID string) on the [webmap](https://meshtastic.davekeogh.com/).
+    1. Allow your node to run overnight and search for it (long name, short name, or either ID string) on the [webmap](https://meshtastic.pugetmesh.org/).
     1. See if your LongFast messages are appearing on the "#LongFast" thread of the "mqtt-messages" channel on our Discord server. 
 * **Why am I not getting any responses to my messages sent in LongFast or Direct Messages?**
     1. The mesh is (currently) a fairly quiet place. We do have a [weekly net](/meshtastic/#weekly-net). This doesn't mean that you are not connected.
