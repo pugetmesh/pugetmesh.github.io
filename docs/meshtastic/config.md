@@ -124,8 +124,8 @@ The following changes are necessary for your node to appear on the map.
     Enabling MQTT will guarantee you will appear on the map, otherwise you must have "OK to MQTT" (Found under LoRa), position on, and connect to a node uplinked to MQTT.
 
     * **Enabled:** `TRUE`
-    * **MQTT Server Address:** `mqtt.davekeogh.com` - this server is required to show up on our map.
-    * **Username/Password:** Leave default or go to [the map](https://mqtt.davekeogh.com/) for details.
+    * **MQTT Server Address:** `meshtastic.pugetmesh.org` - this server is required to show up on our map.
+    * **Username/Password:** Leave default or go to [the map](https://meshtastic.pugetmesh.org/) for details.
     * **Encryption Enabled:** `TRUE`
     * **JSON Enabled:** `FALSE`
     * **TLS Enabled:** `FALSE`
