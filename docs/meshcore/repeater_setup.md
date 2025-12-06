@@ -2,9 +2,28 @@
 
 These are guidelines to help you setup a new Meshcore repeater which will work well within Puget Mesh. Repeaters in Meshcore are encouraged, each enhances the coverage of the mesh.
 
+## Sourcing Your Repeater Parts
+
+^^@Jade's $50 Repeater Parts List (Prices as of 9/19/25)^^
+
+- XIAO nRF52840 + Wio-SX1262 — $14.00 - [Seeed Studio](https://www.seeedstudio.com/)
+- Antenna (Linx ANT-916-CW-HW-SMA-ND) — $10.00 [Digi-Key](https://www.digikey.com/)
+- RAKwireless Solar Panel with JST 1.5 connector (Large 5.5 x 3.5 inch) SKU 920433 (3 Pack) $11 ($33 divided by 3) - [Rokland](https://store.rokland.com/)
+- AITRIP 5PCS Type-C USB 3.7V 4.2V 1A 5W Lithium Li-ion 18650 Battery Charger Board DC-DC Step Up Boost Module TP4056 DIY Kit Parts $1.40 ($7 divided by 5) - [Amazon](https://www.amazon.com/) 
+- LeMotech Waterproof Dustproof IP65 ABS Plastic Junction Box Universal Electric Project Enclosure Pale Gray 6.2 x 3.54 x 2.3 inch (158 x 90 x 60 mm) $7 - [Amazon](https://www.amazon.com/)
+- MakerFocus 1pcs 3.7V 10000mAh Lithium Polymer Rechargeable Battery $20 - [Amazon](https://www.amazon.com/)
+
+^^@Ded (SalishMesh) has a similar [simple build guide](https://salishmesh.net/how-to/simple-repeater/)^^
+
+## Assembling Your Repeater
+
+Each mesher has their own way of assembling their components. You can find many builds on YouTube. A simple MeshCore or Meshtastic repeater can be built following [@Rootkit Dev's build video](https://www.youtube.com/watch?v=1H6_Da1xRVs).
+
+>NOTE: Your repeater needs to operate within unlicensed power limits. Modifying repeater setups to broadcast at higher wattages may violate these limits - if you aren't sure, ask before building.
+
 ## Locating your Repeater
 
-A repeater with an omnidirectional antenna (which is most of them) needs to have good line of site to other repeaters. This means getting it up high. On your roof or on a mast that is above the roof or in the yard free in a clear space. For directional antennas you need good line of site to the other repeater you aim to mesh with.
+A repeater with an omnidirectional antenna (which is most of them) needs to have good line of sight to other repeaters. This means getting it up high. On your roof or on a mast that is above the roof or in the yard free in a clear space. For directional antennas you need good line of sight to the other repeater you aim to mesh with.
 
 ## Encryption Keys
 
