@@ -52,15 +52,24 @@ Topic | Key
 
 ## Map
 
-Here is an embed of the live map of nodes from [MeshExplorer](https://map.w0z.is). Be sure to checkout the official [MeshCore Map](https://meshcore.co.uk/map.html) as well.
+Here is an embed of the live map of nodes from [MeshCore Analyzer](https://analyzer.letsmesh.net/). Be sure to checkout the official [MeshCore Map](https://meshcore.co.uk/map.html) as well.
 
-<iframe src="https://map.w0z.is/embed/map?lat=47.81315&lng=-122.77222" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<iframe src="https://analyzer.letsmesh.net/map?lat=47.44794&long=-122.31028&zoom=8" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 ## Member Projects
 
-### MeshExplorer
+### LetsMesh.net MeshCore Analyzer
 
-[https://map.w0z.is](https://map.w0z.is) "MeshExplorer is a web-based visualization tool for exploring and monitoring mesh networks. It provides real-time mapping of network nodes, message tracking, and statistical analysis for MeshCore and Meshtastic networks." (source: MeshExplorer Info modal)
+[https://analyzer.letsmesh.net](https://analyzer.letsmesh.net/) "The LetsMesh.net MeshCore Analyzer is a real-time packet and reliability analysis tool for the MeshCore network aimed at helping repeater owners (MeshCore network operators) improve the reliability, monitor for abuse or bugs, ensure uptime, and optimize the mesh network for everyone's benefit." ([source: MeshCore Analyzer's About page](https://analyzer.letsmesh.net/about))
+
+MeshCore Analyzer tools:
+- [Internet Map](https://analyzer.letsmesh.net/map?lat=47.44794&long=-122.31028&zoom=8)
+- [Realtime Packets](https://analyzer.letsmesh.net/packets?region=pnw)
+- [Nodes List](https://analyzer.letsmesh.net/nodes/repeaters?region=pnw)
+- [Repeater Prefix Utilization](https://analyzer.letsmesh.net/nodes/prefix-utilization?region=pnw)
+- [Channel Messages](https://analyzer.letsmesh.net/channels?region=pnw)
+- [Realtime Traces](https://analyzer.letsmesh.net/traces?region=pnw)
+- [Stats and Trends](https://analyzer.letsmesh.net/stats/overview)
 
 ### Ciesen's "meshcoretomqtt"
 
