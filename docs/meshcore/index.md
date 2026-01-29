@@ -38,11 +38,15 @@ Hashtag topic keys are automatically calculated by the system. The keys are incl
 Topic | Key
 ---: | :---
 #bot | eb50a1bcb3e4e5d7bf69a57c9dada211
+#bot-tacoma | 278df637e12a0dda01c826e1fd9779fd
+#bot-van | bf07fbf914e37710561cb741e914efeb
 #capitolhill | 7f281916c8ec32e13c5ef687d182160a
 #emergency | e1ad578d25108e344808f30dfdaaf926
 #hamradio | 83c8b01997654265938da8765cbc7db9
+#protest | 195e9167baf010c4538d8532b6d7296e
 #queer | 5754476f162d93bbee3de0efba136860
 #seattle | ef627a9bbbb549347fdb76bf0cd3bc14
+#seahawks | 4973d6ceb6c35a09894a83688847c8a3
 #sports | e8ee81f3aabf105d9ba2d2d4bd94fe4a
 #testing | cde5e82cf515647dcb547a79a4f065d1
 
