@@ -1,7 +1,3 @@
----
-status: new
----
-
 # About Us
 
 Puget Mesh is a volunteer community group in the Puget Sound region of Washington State and Canada. We focus on supporting AREDN, Meshtastic, and other mesh networks in our area. 

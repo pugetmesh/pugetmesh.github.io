@@ -1,7 +1,3 @@
----
-status: new
----
-
 # Other Groups in the Area
 
 These lists are a work in progress.
