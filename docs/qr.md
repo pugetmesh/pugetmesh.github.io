@@ -2,10 +2,34 @@
 status: new
 ---
 
-# QR
+# You’ve discovered a Puget Mesh - Mesh Node!
 
-Hello! You may have found yourself on this page after finding a device with a QR code or link that took you here.
+### 📡 **Important: Please leave this device in its current location.**
+This device is a critical piece of a community-owned emergency communication network. It is not a camera, a tracking device, or a hazard.
 
-Puget Mesh is a community group of volunteer operators of mesh network devices, we use these devices to provide a free, decentralized, form of communication to our communities. Some of these devices are owned and operated by Puget Mesh the organization, but the vast majority are provided by users. 
+---
 
-Please use the [About](/about) page to learn more, and contact others on our public Discord server.
+## ❓ What is this device?
+You have found a **LoRa Mesh Node**. This is a low-power, long-range radio relay that allows the community to send text-based messages without relying on cell towers, satellites, or the internet.
+
+Think of it as a "digital neighborhood watch" for communications. This node is part of the **Puget Mesh** project, a volunteer-run initiative serving the Puget Sound region. This particular node is likely owned and operated by one of our commmunity members. You can find owners of specific nodes on or Discord where we coordinate and catalog repeater node sites.
+
+## 🛡️ Why is it here?
+We place these nodes in strategic locations to ensure that during a power outage, storm, earthquake, or other disaster, our community remains connected. This network allows neighbors to:
+* **Coordinate** emergency responses.
+* **Check in** on loved ones when cell lines are down.
+* **Relay** critical safety information across the region.
+
+## 🛑 Why shouldn't I move it?
+**Please do not move, open, or tamper with this device.** Its position is carefully calibrated to "talk" to other nodes miles away. Moving it even a few feet—or changing the direction of the antenna—can break a link in the communication chain, potentially disconnecting an entire neighborhood from the emergency backup.
+
+---
+
+## 🤝 How can I join?
+This network is **open to the public**. You don't need a license to use it, and we encourage everyone to participate!
+
+* **Get a Device:** You can build or buy your own portable node for a small cost and start messaging your neighbors.
+* **Join the Conversation:** We use **Discord** for our community chat, troubleshooting, and project sharing. 
+* **Learn More:** Visit our home page at [pugetmesh.org](https://pugetmesh.org).
+
+**Questions or concerns?** Reach out to us at [inquiry@pugetmesh.org](mailto:inquiry@pugetmesh.org).

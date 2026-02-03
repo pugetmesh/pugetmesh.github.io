@@ -4,6 +4,9 @@
 
 [MeshCore](https://meshcore.co.uk/) is a multi platform system for enabling secure text based communications utilizing LoRa radio hardware. It can be used for Off-Grid Communication, Emergency Response & Disaster Recovery, Outdoor Activities, Tactical Security including law enforcement and private security and also IoT sensor networks.
 
+Use this embedded map from [letsmesh.net](https://analyzer.letsmesh.net/channels) to find nodes in your are. NOTE: Not all nodes share their position data with the mesh.
+<iframe src="https://analyzer.letsmesh.net/map?region=SEA&lat=47.76492&long=-122.2763&zoom=7" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
 ## Joining
 
 Are you interested in joining the mesh? You will need to purchase a LoRa radio from the [MeshCore Supported Devices](https://meshcore.co.uk/get.html) list. Outside of the mesh, we are most active on our public [Discord Server](https://discord.gg/ANvUg3AyZt) including a whole section for MeshCore discussions.
@@ -49,12 +52,6 @@ Topic | Key
 #seahawks | 4973d6ceb6c35a09894a83688847c8a3
 #sports | e8ee81f3aabf105d9ba2d2d4bd94fe4a
 #testing | cde5e82cf515647dcb547a79a4f065d1
-
-## Map
-
-Here is an embed of the live map of nodes from [MeshExplorer](https://map.w0z.is). Be sure to checkout the official [MeshCore Map](https://meshcore.co.uk/map.html) as well.
-
-<iframe src="https://map.w0z.is/embed/map?lat=47.81315&lng=-122.77222" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 ## Member Projects
 

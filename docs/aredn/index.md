@@ -16,7 +16,7 @@ You may already own a supported hardware device. Check [the comprehensive suppor
 
 In the Puget Sound region we are primarily using 2.4ghz Channel -2 (2.397mhz) with a 10MHZ bandwidth. [HamWAN](https://hamwan.org/) has asked if we can avoid using the 5GHz space where possible since that is what they primarily occupy. 
 
-[![AREDN Mesh Map](/media/AREDN_Mesh_Map_Nov2024SS.png){ width="250", align=left }](http://usercontent.arednmesh.org/K/5/K5DLQ/livemap2.html#9/47.5395/-122.3973)
+[![AREDN Mesh Map](/media/AREDN_Mesh_Map_Nov2024SS.png){ width="250", align=left }](https://worldmap.arednmesh.org/#6.66/47.5395/-122.3973)
 If your AREDN node is connected to the internet, it can publish its GPS so the position will appear on the [AREDN Mesh Map](http://usercontent.arednmesh.org/K/5/K5DLQ/livemap2.html#9/47.5395/-122.3973). Consider publishing your location to help us know where to grow the mesh, and what possible routes are already available. 
 
 Additionally there is an [AREDN offline Map submission tool](https://www.arednmesh.org/content/aredn-offline-map-submit-tool-updated) that allows you to share your position on the map without having to connect your node to the internet. If you would like for us to submit your location for you, feel free to reach out and we will make that happen.
@@ -24,13 +24,6 @@ Additionally there is an [AREDN offline Map submission tool](https://www.arednme
 </br>
 </br>
 </br>
-
-### Collaborative Map
-
-<iframe style="height:500px; width:100%; border:none;" src="https://facilmap.org/MRdcQjxslobJK8?search=false#9/47.7299/-122.3520/Lima/"></iframe>
-
-This collaborative map allows users to place their fixed nodes for others to see. This is especially helpful to capture users with nodes that are not connected to the internet, or not deployed at all times. 
-
 
 ## Uses
 
@@ -42,7 +35,6 @@ There are two primary ways to build an AREDN mesh:
 ### Proactive
 
 Proactive Mesh networks are setup today, ahead of their need for Emergency Communications. An example would be what is setup today (2024) in West Seattle, and what is found on the [AREDN Mesh Map](http://usercontent.arednmesh.org/K/5/K5DLQ/livemap2.html#7/46.604/-120.146). These networks can grow very large and have connectivity between many links that are very far away via highly directional antennas.
-
 
 ### Reactive
 

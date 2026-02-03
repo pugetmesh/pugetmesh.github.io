@@ -53,8 +53,16 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+
+extra_javascript:
+  - static/mesh_background.js
+
+extra_css:
+  - static/mesh_background.css
+
 theme:
   name: material
+  custom_dir: overrides
   palette:
     primary: amber
     scheme: default 

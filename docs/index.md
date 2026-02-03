@@ -1,24 +1,24 @@
 # Welcome
 
 [![Puget Mesh Logo](/static/PugetMeshLogo_200.png){ align=left }](/static/PugetMeshLogo.svg)
-Puget Mesh is a volunteer community group that supports AREDN, Meshtastic, and other off-grid mesh networks in the Puget Sound Region. These networks serve as tools during times of need (Emergency Response, Disaster Preparedness).
+## Connecting the Puget Sound, Regardless of the Grid.
 
-We love chatting on and off of the mesh. We use Discord for nearly all of our communication outside of the mesh. It is also a great place to get help, share pictures, and get ideas for projects. All other inquiries can be sent to inquiry@pugetmesh.org.
+**Puget Mesh** is a volunteer-led community dedicated to the deployment and support of off-grid communication networks—including **AREDN**, **MeshCore**, and **Meshtastic** across the Puget Sound region. Our mission is to provide community-owned resilient digital infrastructure that serves as a vital tool for disaster preparedness and emergency response.
+
+**New to mesh networking?** You’ve come to the right place. Beyond the technology, we are a community of builders. Whether you’re looking to troubleshoot a node or brainstorm your next project, our Discord server is the hub for our off-mesh collaboration. Use it to ask for help and also to meet others in your area in one of the regional location channels.
 </br>
 </br>
-</br>
 
-## Discord
+**Get Involved:** Join our [Discord](https://discord.gg/ANvUg3AyZt). We use it for nearly all of our communication outside the mesh.
 
-Consider joining our Discord. It is a great place connect with others in our area, troubleshoot and receive feedback, and learn about new projects.
+**Follow Us:** We occasionally post user projects and events on both [Bluesky](https://bsky.app/profile/pugetmesh.org) and [Instagram](https://www.instagram.com/pugetmesh)
 
-[![Discord Widget](https://discord.com/api/guilds/1291139029814739084/widget.png?style=banner2)](https://discord.gg/ANvUg3AyZt)
+**Contact Us:** For official inquiries, please email [inquiries@pugetmesh.org](mailto:inquiries@pugetmesh.org).
+
 ---
 ## Current Events:
 
-
-### Weekly Meshtastic Net: (Canceled April 21st - May 5th 2025)
-Join us every Monday at 6:13:45PM for our Meshtastic Net. Listen for us on the public default LongFast channel, on the default LONG_FAST frequency slot 20. Learn more [HERE](/meshtastic/#weekly-net).
+**Q1 2026**: Most of our efforts are going into building out MeshCore, the successor to Meshtastic. We have infrastructure for both, but MeshCore is much more effective in our region.
 
 ---
 
