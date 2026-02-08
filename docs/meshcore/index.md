@@ -4,8 +4,18 @@
 
 [MeshCore](https://meshcore.co.uk/) is a multi platform system for enabling secure text based communications utilizing LoRa radio hardware. It can be used for Off-Grid Communication, Emergency Response & Disaster Recovery, Outdoor Activities, Tactical Security including law enforcement and private security and also IoT sensor networks.
 
-Use this embedded map from [letsmesh.net](https://analyzer.letsmesh.net/channels) to find nodes in your are. NOTE: Not all nodes share their position data with the mesh.
-<iframe src="https://analyzer.letsmesh.net/map?region=SEA&lat=47.76492&long=-122.2763&zoom=7" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+Here is an embed of the live map of nodes from [MeshCore Analyzer](https://analyzer.letsmesh.net/). Be sure to checkout the official [MeshCore Map](https://meshcore.co.uk/map.html) as well.
+<iframe src="https://analyzer.letsmesh.net/map?lat=47.44794&long=-122.31028&zoom=8" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+MeshCore Analyzer tools:
+
+- [Internet Map](https://analyzer.letsmesh.net/map?lat=47.44794&long=-122.31028&zoom=8)
+- [Realtime Packets](https://analyzer.letsmesh.net/packets?region=pnw)
+- [Nodes List](https://analyzer.letsmesh.net/nodes/repeaters?region=pnw)
+- [Repeater Prefix Utilization](https://analyzer.letsmesh.net/nodes/prefix-utilization?region=pnw)
+- [Channel Messages](https://analyzer.letsmesh.net/channels?region=pnw)
+- [Realtime Traces](https://analyzer.letsmesh.net/traces?region=pnw)
+- [Stats and Trends](https://analyzer.letsmesh.net/stats/overview)
 
 ## Joining
 
