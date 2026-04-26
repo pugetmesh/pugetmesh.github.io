@@ -33,7 +33,7 @@ jobs:
           fetch-depth: 0 # Fetch all history for mkdocs-git-revision-date-localized-plugin
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - uses: actions/setup-python@v6
         with:
