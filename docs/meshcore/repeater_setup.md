@@ -19,41 +19,26 @@ These are guidelines to help you setup a new Meshcore repeater which will work w
 
 Each mesher has their own way of assembling their components. You can find many builds on YouTube. A simple MeshCore or Meshtastic repeater can be built following [@Rootkit Dev's build video](https://www.youtube.com/watch?v=1H6_Da1xRVs).
 
->NOTE: Your repeater needs to operate within unlicensed power limits. Modifying repeater setups to broadcast at higher wattages may violate these limits - if you aren't sure, ask before building.
+>NOTE: Your repeater needs to operate within unlicensed power limits (1W or 30 dBm). Modifying repeater setups to broadcast at higher wattages may violate these limits - if you aren't sure, ask before building. Be aware that many nodes include an amplifier, so the tx power setting you use needs to be reduced. See your node's manual to understand how to configure it.
 
 ## Locating your Repeater
 
 A repeater with an omnidirectional antenna (which is most of them) needs to have good line of sight to other repeaters. This means getting it up high. On your roof or on a mast that is above the roof or in the yard free in a clear space. For directional antennas you need good line of sight to the other repeater you aim to mesh with.
 
-## Encryption Keys
-
-Before you get started, it is good to understand every Meshcore device has a set of private and public keys for encrypting traffic.  The public key is used within the Mesh as the unique ID of your node. You can even search by public key in the [MeshExplorer Search Tool https://map.w0z.is/search](https://map.w0z.is/search).
-
-Meshcore uses the first two characters of your public key on the mesh as the abbreviated id of your repeater when viewing the paths messages have traveled. It is not a _strict_ requirement, but unique prefixes are helpful in the larger Puget Mesh system.
-
-Meshcore's firmware can not know what prefixes are already in use, and it will generate perfectly good random public and private keys with a public key prefix that is already in use by another repeater.
-
-In the Repeater Setup steps you will check if your auto-generated public key has a unique prefix and it not, you will follow the steps to create new keys using the [Meshcore Custom Key Generator site https://gessaman.com/mc-keygen/](https://gessaman.com/mc-keygen/).
-
->NOTE: If you have security concerns about this approach, go to the [meshcore-web-keygen GitHub repo](https://github.com/agessaman/meshcore-web-keygen), download and run it locally.
-
 ## Repeater Setup
 
-Once you have [flashed your repeater](https://flasher.meshcore.co.uk/) with the web flasher (chromium browser required). The Meshcore documentation explains how to [configure your repeater](https://github.com/meshcore-dev/MeshCore/blob/main/docs/faq.md#31-q-how-do-you-configure-a-repeater-or-a-room-server) over USB.  The web based config app is at [https://config.meshcore.dev/](https://config.meshcore.dev/)
+Once you have [flashed your repeater](https://meshcore.io/flasher) with the web flasher (chromium browser required). The Meshcore documentation explains how to [configure your repeater](https://docs.meshcore.io/faq/#31-q-how-do-you-configure-a-repeater-or-a-room-server) over USB.  The web based config app is at [https://config.meshcore.io/](https://config.meshcore.io/)
 
 Key items for you to get right:
-
-- **Public Key**: Check if your auto-generated Public Key prefix (the first two characters) are unique.
-
-  1. Go to the [MeshExplore Stats https://map.w0z.is/stats](https://map.w0z.is/stats#used-prefixes)
-  2. Is there already a repeater using your prefix? If no, you're good to go.
-  3. Is your prefix in use? Scroll down to the [MeshExplore Unused Repeater Prefixes](https://map.w0z.is/stats#unused-prefixes).
-  4. Select one you would like to use and the Meshcore Custom Key Generator site will open. You will see the prefix you selected. Click Generate Key.
-  5. Copy the public and private keys and save them. We'll finishing setting up the repeater and change them at the end using the web console.
 
 - **Name**: It is helpful if your repeater gives a hint about the location, such as a landmark, neighborhood or cross streets.
 - **Location**: Set the Latitude and Longitude in decimal format (47.xxxx, -122.xxxx)
 - **Guest and Admin Password**: Use a strong password. Repeaters can be administered over the mesh from the Meshcore app.
+- **Advert Interval (minutes)**: 0
+- **Flood Advert Interval (hours)**: 47
+- **Flood max**: 16 -- adjust according to your liking, default is 64
+- **Owner Info**: This is a free-text field, place your email, discord name, or any other identifier to contact you with in case you need to be reached (optional)
+
 - **Radio Settings**: Repeaters and clients use the “USA/Canada (Recommended)” preset.
 
     Frequency | 910.525 MHz
@@ -61,14 +46,17 @@ Key items for you to get right:
     Bandwidth | 62.5 kHz
     Spreading Factor | 7
     Coding Rate | 5
+    TX Power (dBm)* | 22
 
-## Setting Private and Public Keys
+*Some hardware options have an external power amplifier which will increase the final transmit power over the limit of 30dBm. The TX Power in the config interface or in the cli does not take this external amplifier into consideration. Common nodes that have an external amplifier are: Station G2, Ikoka 1w/2w, RAK 1w, Heltec V4, etc. Reffer to the documentation of your node to understand how to configure this.
 
-If your auto-generated key did not have a unique prefix, you should have generated a new private and public key and saved them. Go back to the [Web Flasher https://flasher.meshcore.co.uk/](https://flasher.meshcore.co.uk/) and above the list of all the devices, on the right side, click on the Console button and connect to your device. Once you are connected you will see a command prompt:
+## Advanced Settings
 
-  1. At the prompt, type in `set prv.key` and paste in your Private Key.
-  2. Type in `reboot`.
-  3. After your device reboots, verify that the private key is correct by running `get prv.key`.
+- **Loop Detection**: Moderate
+- **Path hash mode**: 3-byte
+- **AGC reset interval**: If you notice your node going "deaf" after some time, try setting this value to something greater than 0. The lower the value, the more often the node will reset the AGC. The minimum is `4`.
+- **RX Delay and TX Delay**: Nodes that are in very good locations should set these, otherwise the defaults are fine.
+- **Multi ACKs**: Enable -- this instructs the repeater to send 2 acks instead of 1, often leading to a better remote admin experience. 
 
 ## Remote Management
 
@@ -84,11 +72,11 @@ Before you put your repeater up on a pole where you can't easily reach it, pract
 5. Select Remote Management (and wait the seconds..)
 6. Put in your admin password and Login
 
-You should now be logged in and able to Get Stats from the menu, or issue console commands. For all the commands see the [Repeater & Room Server CLI Reference](https://github.com/meshcore-dev/MeshCore/wiki/Repeater-&-Room-Server-CLI-Reference).
+You should now be logged in and able to Get Stats from the menu, or issue console commands. For all the commands see the [CLI Commands](https://docs.meshcore.io/cli_commands/).
 
 ## Repeater Testing
 
-You can search for your repeater by name or public key using [MeshExplorer https://map.w0z.is/search](https://map.w0z.is/search)
+You can search for your repeater by name or public key using [MeshExplorer https://analyzer.letsmesh.net/nodes/repeaters](https://analyzer.letsmesh.net/nodes/repeaters)
 
 Using the Config app or managing remotely from a companion deviceissue the advert command on your repeater. If your location is good, your antenna is good and you have other repeaters in range you will see your repeater show up in MeshExplorer and on the Map (assuming you set the location).
 

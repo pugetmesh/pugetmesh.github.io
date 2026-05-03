@@ -2,9 +2,9 @@
 
 ![Meshcore Logo](/media/meshcore/meshcore_logo.png)
 
-[MeshCore](https://meshcore.co.uk/) is a multi platform system for enabling secure text based communications utilizing LoRa radio hardware. It can be used for Off-Grid Communication, Emergency Response & Disaster Recovery, Outdoor Activities, Tactical Security including law enforcement and private security and also IoT sensor networks.
+[MeshCore](https://meshcore.io) is a multi platform system for enabling secure text based communications utilizing LoRa radio hardware. It can be used for Off-Grid Communication, Emergency Response & Disaster Recovery, Outdoor Activities, Tactical Security including law enforcement and private security and also IoT sensor networks.
 
-Here is an embed of the live map of nodes from [MeshCore Analyzer](https://analyzer.letsmesh.net/). Be sure to checkout the official [MeshCore Map](https://meshcore.co.uk/map.html) as well.
+Here is an embed of the live map of nodes from [MeshCore Analyzer](https://analyzer.letsmesh.net/). Be sure to checkout the official [MeshCore Map](https://meshcore.io/map) as well.
 <iframe src="https://analyzer.letsmesh.net/map?lat=47.44794&long=-122.31028&zoom=8" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 MeshCore Analyzer tools:
@@ -19,7 +19,7 @@ MeshCore Analyzer tools:
 
 ## Joining
 
-Are you interested in joining the mesh? You will need to purchase a LoRa radio from the [MeshCore Supported Devices](https://meshcore.co.uk/get.html) list. Outside of the mesh, we are most active on our public [Discord Server](https://discord.gg/ANvUg3AyZt) including a whole section for MeshCore discussions.
+Are you interested in joining the mesh? You will need to purchase a LoRa radio from the [MeshCore Supported Devices](https://meshcore.io) list. Outside of the mesh, we are most active on our public [Discord Server](https://discord.gg/ANvUg3AyZt) including a whole section for MeshCore discussions.
 
 ### Roles
 
@@ -67,7 +67,7 @@ Topic | Key
 
 ### MeshExplorer
 
-[https://map.w0z.is](https://map.w0z.is) "MeshExplorer is a web-based visualization tool for exploring and monitoring mesh networks. It provides real-time mapping of network nodes, message tracking, and statistical analysis for MeshCore and Meshtastic networks." (source: MeshExplorer Info modal)
+[https://analyzer.letsmesh.net/map](https://analyzer.letsmesh.net/map) "MeshExplorer is a web-based visualization tool for exploring and monitoring mesh networks. It provides real-time mapping of network nodes, message tracking, and statistical analysis for MeshCore and Meshtastic networks." (source: MeshExplorer Info modal)
 
 ### Ciesen's "meshcoretomqtt"
 
