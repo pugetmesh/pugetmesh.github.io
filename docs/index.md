@@ -30,12 +30,15 @@
 ---
 ## Current Events:
 
-### Test1 — 500 kHz MeshCore backhaul trial (Sept 11–15, 2026)
-From Friday, September 11 through Tuesday, September 15, 2026 we ran **Test1**, evaluating a **500 kHz** LoRa preset for backhaul links and FCC compliance. 500 kHz is the minimum 6 dB bandwidth the FCC requires for the higher-power digital path in the 902–928 MHz band, making it a candidate for longer, higher-power backhaul hops than our 62.5 kHz local preset. See **[RF Bridge &amp; Backhaul](/meshcore/rf_bridge/)** for background, the [LoRa bridging guide](https://meshcore.nexus/guides/lora-bridging) we created, and the [FCC 900 MHz rules](https://stuff.cisien.com/fcc-900mhz-regulations.html).
+### Test2 — 500 kHz MeshCore Spectrum Test (Sept 19–20, 2026)
+**More bandwidth, fewer retransmissions, faster propagation** — that's the goal of our 500 kHz backhaul, and Test2 goes looking for the frequency to deliver it. On Friday, September 19 and Saturday, September 20, 2026 we'll run a spectrum study to find the optimal frequency for our [500 kHz backhaul](/meshcore/rf_bridge/), which means taking the **[Cougar Mountain repeater](/meshcore/equipment/#cougar-mountain)** offline a few times to sweep and analyze the RF spectrum. Expect intermittent Cougar outages across those two days. Questions or coordination in the [backhaul-testing Discord channel](https://discord.com/channels/1291139029814739084/1549925039388885033).
 
 ---
 
 ## Past Events:
+### Test1 — 500 kHz MeshCore backhaul trial (Sept 11–15, 2026)
+From Friday, September 11 through Tuesday, September 15, 2026 we ran **Test1**, evaluating a **500 kHz** LoRa preset for backhaul links and FCC compliance. 500 kHz is the minimum 6 dB bandwidth the FCC requires for the higher-power digital path in the 902–928 MHz band, making it a candidate for longer, higher-power backhaul hops than our 62.5 kHz local preset. See **[RF Bridge &amp; Backhaul](/meshcore/rf_bridge/)** for background, the [LoRa bridging guide](https://meshcore.nexus/guides/lora-bridging) we created, and the [FCC 900 MHz rules](https://stuff.cisien.com/fcc-900mhz-regulations.html).
+
 ### May 2025 Meshtastic ShortFast Experiment!
 For the Month of May we are trialing SHORT_FAST/ShortFast. We encourage all users to move their nodes over for the whole month of May. [More information can be found on the event page here.](/meshtastic/may2025)
 [![May 2025 Meshtastic ShortFast Experiment](/media/meshtastic/May2025-SF-Announcement.jpg)](/meshtastic/may2025)

@@ -1,5 +1,7 @@
 # RF Bridge & Backhaul
 
+*More bandwidth, fewer retransmissions, faster propagation.*
+
 A busy local mesh and a long-distance backhaul link want opposite radio settings. Locally you want a fast, short-range preset so neighborhood traffic moves quickly; between hilltops you want something slower and more robust—or wider and higher-power—to make the long hop reliable. Once you split those settings, something has to carry traffic across the seam. That something is an **RF bridge**: one logical node with a foot in both networks, passing packets between them so the rest of the mesh never sees the boundary.
 
 This page collects our backhaul work: the 500 kHz preset we're testing, how to bridge it to the local mesh, and the FCC rules that make 500 kHz the compliant path to real power.
@@ -9,6 +11,8 @@ This page collects our backhaul work: the 500 kHz preset we're testing, how to b
 Our local mesh runs the standard **62.5 kHz** preset (see [Overview](index.md)). That preset is efficient and works well for neighborhood coverage, but under FCC Part 15 it operates as a narrowband emission at low power (see [FCC 900 MHz Regulations](#fcc-900-mhz-regulations) below).
 
 **500 kHz is different.** At a 6 dB bandwidth of 500 kHz, a LoRa signal clears the FCC's digital-modulation floor in 902–928 MHz and becomes eligible for the higher power limit—up to 1 W conducted—which is exactly what a long backhaul hop needs. That makes 500 kHz an attractive candidate for a dedicated backhaul band that is both **higher-power and FCC-compliant**, sitting above the local mesh rather than competing with it.
+
+The payoff we're after is the tagline above: a wider channel carries **more bandwidth** (a higher data rate), which shortens each packet's time on air and—together with the higher legal power—means **fewer retransmissions** and, in turn, **faster propagation** of traffic across the mesh. Test1 and Test2 exist to confirm that payoff on real regional paths.
 
 !!! note "Test1 — Sept 11–15, 2026"
     We ran **Test1** from Friday, September 11 through Tuesday, September 15, 2026 to evaluate a 500 kHz preset for backhaul and FCC compliance, using the [LoRa bridging guide](https://meshcore.nexus/guides/lora-bridging) we created, embedded below. *Hardware, band plan, and results will be documented here as the analysis wraps up.*
