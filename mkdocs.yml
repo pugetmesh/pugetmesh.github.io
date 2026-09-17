@@ -7,11 +7,17 @@ repo_url: https://github.com/pugetmesh/pugetmesh.github.io
 edit_uri: edit/main/docs/
 nav:
   - Home: index.md
-  - AREDN: aredn/index.md
-  - MeshCore: 
+  - MeshCore:
     - Overview: meshcore/index.md
     - Equipment: meshcore/equipment.md
     - Repeater Setup: meshcore/repeater_setup.md
+    - RF Bridge & Backhaul: meshcore/rf_bridge.md
+  - AREDN:
+    - Overview: aredn/index.md
+    - Getting Started: aredn/getting_started.md
+    - Equipment: aredn/equipment.md
+    - HaLow (802.11ah): aredn/halow.md
+    - Coverage & Map: aredn/map.md
   - Meshtastic:
     - Overview: meshtastic/index.md
     - FAQ: meshtastic/faq.md

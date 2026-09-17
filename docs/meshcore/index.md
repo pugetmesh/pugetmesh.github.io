@@ -45,6 +45,10 @@ Coding Rate | 5
 
 Meshcore works well with neighborhood repeaters, increase the range and reliability of Puget Mesh by setting up your own repeater. The [Repeater Setup Guide](repeater_setup.md) walks you through the process.
 
+## Backhaul & RF bridging
+
+Linking distant sites needs a more robust—or higher-power—preset than the local mesh. See [RF Bridge & Backhaul](rf_bridge.md) for our 500 kHz backhaul testing, how to bridge it to the 62.5 kHz mesh, and the FCC rules involved.
+
 ## Channels
 Hashtag topic keys are automatically calculated by the system. The keys are included to help users on devices that cannot type the # (hash) symbol or lack the key calculation functionality.
 

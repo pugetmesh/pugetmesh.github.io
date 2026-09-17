@@ -3,7 +3,7 @@
 [![Puget Mesh Logo](/static/PugetMeshLogo_200.png){ align=left }](/static/PugetMeshLogo.svg)
 ## Connecting the Puget Sound, Regardless of the Grid.
 
-**Puget Mesh** is a volunteer-led community dedicated to the deployment and support of off-grid communication networks—including **AREDN**, **MeshCore**, and **Meshtastic** across the Puget Sound region. Our mission is to provide community-owned resilient digital infrastructure that serves as a vital tool for disaster preparedness and emergency response.
+**Puget Mesh** is a volunteer-led community building off-grid, community-owned communication networks across the Puget Sound region. Our primary focus is **[MeshCore](/meshcore/)**—a resilient, low-power LoRa texting network—alongside **[AREDN](/aredn/)** high-speed data for emergency communications and our legacy **[Meshtastic](/meshtastic/)** network. Together these provide resilient digital infrastructure for disaster preparedness, emergency response, and everyday experimentation.
 
 **New to mesh networking?** You’ve come to the right place. Beyond the technology, we are a community of builders. Whether you’re looking to troubleshoot a node or brainstorm your next project, our Discord server is the hub for our off-mesh collaboration. Use it to ask for help and also to meet others in your area in one of the regional location channels.
 </br>
@@ -16,9 +16,22 @@
 **Contact Us:** For official inquiries, please email [inquiries@pugetmesh.org](mailto:inquiries@pugetmesh.org).
 
 ---
+## Which network is right for me?
+
+!!! tip "Start here — MeshCore"
+    For most people, **MeshCore** is the best way to get on the mesh today. It runs on inexpensive, low-power LoRa hardware, works off-grid, and is the most active and effective network in our region. → **[Get on MeshCore](/meshcore/)**
+
+!!! note "AREDN — high-speed EmComm data"
+    **AREDN** turns commercial WiFi hardware into a high-speed IP mesh for amateur radio operators, carrying IP phones, Winlink, file transfer, and video. It requires a ham license at the frequencies and power levels we use in this region. → **[Explore AREDN](/aredn/)**
+
+!!! note "Meshtastic — legacy / interop"
+    We still operate **Meshtastic** infrastructure, but most new deployments should choose MeshCore. → **[Meshtastic](/meshtastic/)**
+
+---
 ## Current Events:
 
-**Q1 2026**: Most of our efforts are going into building out MeshCore, the successor to Meshtastic. We have infrastructure for both, but MeshCore is much more effective in our region.
+### Test1 — 500 kHz MeshCore backhaul trial (Sept 11–15, 2026)
+From Friday, September 11 through Tuesday, September 15, 2026 we ran **Test1**, evaluating a **500 kHz** LoRa preset for backhaul links and FCC compliance. 500 kHz is the minimum 6 dB bandwidth the FCC requires for the higher-power digital path in the 902–928 MHz band, making it a candidate for longer, higher-power backhaul hops than our 62.5 kHz local preset. See **[RF Bridge &amp; Backhaul](/meshcore/rf_bridge/)** for background, the [LoRa bridging guide](https://meshcore.nexus/guides/lora-bridging) we created, and the [FCC 900 MHz rules](https://stuff.cisien.com/fcc-900mhz-regulations.html).
 
 ---
 

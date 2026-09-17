@@ -2,47 +2,41 @@
 
 ![AREDN Mesh Logo](/media/AREDN-Logo.png){ align=left }
 
-The [Amateur Radio Emergency Data Network](https://www.arednmesh.org/) (AREDN®) mesh provides a way for Amateur Radio operators to create high-speed ad hoc Data Networks for use in Emergency and service-oriented communications. 
+The [Amateur Radio Emergency Data Network](https://www.arednmesh.org/) (AREDN®) is high-speed IP mesh networking for amateur radio operators. It runs on commercial and consumer WiFi hardware in place of the factory firmware, handling the routing, addressing, and link management needed to build a self-configuring data network with no internet and a focus on Emergency Communications (EmComm).
 
-Specifically, AREDN is the software that runs on top of consumer and commercial-grade WiFi hardware in place of the factory firmware. This new software takes care of the considerations required to setup and manage a mesh network with no internet and and a focus on Emergency Communications (EmComm). While it is possible to legally use AREDN without a ham radio license, the frequencies and power levels used in the Puget Sound region do require a license. 
+While it is possible to legally use AREDN on some bands without a ham radio license, the frequencies and power levels used in the Puget Sound region **do require a license**.
+
+Unlike the LoRa networks [MeshCore](/meshcore/) and [Meshtastic](/meshtastic/)—which are optimized for short text messages at very low power—AREDN carries real IP traffic at megabit speeds: IP phones, [Winlink](https://www.winlink.org/), chat, file transfer, cameras, and more.
+
+In this section:
+
+- **[Getting Started](getting_started.md)** — supported hardware, flashing, and our local band/channel settings
+- **[Equipment](equipment.md)** — device families and what works well in our region
+- **[HaLow (802.11ah)](halow.md)** — emerging 900 MHz long-range links, now under local test
+- **[Coverage & Map](map.md)** — where the mesh reaches today, and how to put your node on the map
 
 ## Why AREDN?
 
-AREDN® provides a way for amateur radio operators to create high-speed data networks for use in emergency and community service communication. At a high level, an Amateur Radio Emergency Data Network is simply another tool for your EmComm toolbox. As an amateur radio operator involved in emergency communication, you already have quite a few RF resources that you use on a regular basis. AREDN® is yet another tool that you might want to have available if it meets an important EmComm requirement, which we’ll see in a moment.
-
-You may already own a supported hardware device. Check [the comprehensive supported-devices list](https://www.arednmesh.org/content/supported-devices-0) on their website to find out. I also encourage you to check out their [nice documentation](https://docs.arednmesh.org/en/latest/).
-
-## Map
-
-In the Puget Sound region we are primarily using 2.4ghz Channel -2 (2.397mhz) with a 10MHZ bandwidth. [HamWAN](https://hamwan.org/) has asked if we can avoid using the 5GHz space where possible since that is what they primarily occupy. 
-
-[![AREDN Mesh Map](/media/AREDN_Mesh_Map_Nov2024SS.png){ width="250", align=left }](https://worldmap.arednmesh.org/#6.66/47.5395/-122.3973)
-If your AREDN node is connected to the internet, it can publish its GPS so the position will appear on the [AREDN Mesh Map](http://usercontent.arednmesh.org/K/5/K5DLQ/livemap2.html#9/47.5395/-122.3973). Consider publishing your location to help us know where to grow the mesh, and what possible routes are already available. 
-
-Additionally there is an [AREDN offline Map submission tool](https://www.arednmesh.org/content/aredn-offline-map-submit-tool-updated) that allows you to share your position on the map without having to connect your node to the internet. If you would like for us to submit your location for you, feel free to reach out and we will make that happen.
-
-</br>
-</br>
-</br>
+At a high level, an Amateur Radio Emergency Data Network is simply another tool for your EmComm toolbox. As an operator involved in emergency communication you already have RF resources you use regularly; AREDN® is one more to have available when a served agency needs a genuine data network—not just voice or short text.
 
 ## Uses
 
 There are two primary ways to build an AREDN mesh:
 
-1. Proactive (Before being needed)
-2. Reactive (After they are needed)
+1. **Proactive** — built before it is needed
+2. **Reactive** — deployed when it is needed
 
 ### Proactive
 
-Proactive Mesh networks are setup today, ahead of their need for Emergency Communications. An example would be what is setup today (2024) in West Seattle, and what is found on the [AREDN Mesh Map](http://usercontent.arednmesh.org/K/5/K5DLQ/livemap2.html#7/46.604/-120.146). These networks can grow very large and have connectivity between many links that are very far away via highly directional antennas.
+Proactive mesh networks are set up today, ahead of any emergency need. An example is the established network in West Seattle, visible on the [AREDN Worldmap](https://worldmap.arednmesh.org/#6.66/47.5395/-122.3973). These networks can grow large, linking sites over long distances with highly directional antennas.
 
 ### Reactive
 
-These networks can do everything a Proactive network can do, but are set up as needed rather than maintained over time. It is safe to assume that natural disasters will impact traditional communications (e.g. Cell towers failures, last-mile or backbone internet failures) but they will also impact the Proactive mesh networks. Directional antennas may be moved out of alignment, power issues may take nodes offline, new line-of-site obstructions limit bandwidth or connectivity, etc. 
+These networks can do everything a proactive network can, but are stood up as needed rather than maintained over time. Assume that natural disasters will impact traditional communications (cell tower failures, last-mile or backbone internet outages)—but they will also impact proactive mesh networks: directional antennas knocked out of alignment, nodes lost to power problems, new line-of-sight obstructions, and so on.
 
-For example, an AREDN network could be set up to provide network connectivity between an emergency shelter and an incident command post. Components like IP Phones, Messaging services like Winlink Express, or file sharing services can be quickly and easily connected to the AREDN Mesh, enabling rapid information transfer between the sites. After the incident has been cleared, the AREDN equipment can be quickly and easily packed away for its next reactive deployment.
+For example, an AREDN network could link an emergency shelter to an incident command post. IP phones, messaging services like Winlink Express, or file-sharing services connect to the mesh, enabling rapid information transfer between the sites. After the incident, the equipment packs away for its next reactive deployment.
 
-It is important to practice both of these deployment types, building out a mesh ahead of an incident, and setting up impromptu deployments in new and unique locations. 
+Practice both: build out a mesh ahead of an incident, and stand up impromptu deployments in new and unique locations.
 
 ## Other Local AREDN Groups
 
