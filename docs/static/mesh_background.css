@@ -8,3 +8,11 @@
     background-color: #ffffffff; /* Match your site's background */
   }
   
+/* Make the event test entries (with their dates) stand out in the left-nav
+   table of contents, so the schedule is easy to scan at a glance.
+   MkDocs strips inline bold from TOC labels, so this bolds the whole
+   test entry rather than only the date substring. */
+.md-nav__link[href*="#test2-"],
+.md-nav__link[href*="#test3-"] {
+  font-weight: 700;
+}
