@@ -12,6 +12,11 @@ nav:
     - Equipment: meshcore/equipment.md
     - Repeater Setup: meshcore/repeater_setup.md
     - RF Bridge & Backhaul: meshcore/rf_bridge.md
+    - Backhaul Testing:
+      - Overview: meshcore/backhaul/index.md
+      - Test1 — 500 kHz trial: meshcore/backhaul/test1.md
+      - Test2 — Spectrum test: meshcore/backhaul/test2.md
+      - Test3 — Freq/SF/CR: meshcore/backhaul/test3.md
   - AREDN:
     - Overview: aredn/index.md
     - Getting Started: aredn/getting_started.md
@@ -50,6 +55,9 @@ markdown_extensions:
   - pymdownx.tilde
   - admonition
   - pymdownx.details
+  - pymdownx.snippets:
+      base_path: ["docs"]
+      check_paths: true
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
