@@ -15,3 +15,85 @@ Click to enlarge and see the larger coverage map.
 [![Capitol Hill Coverage Map](/media/meshcore/PugetMesh_CougarMountainCoverage.png)](https://www.heywhatsthat.com/?view=BSNMM8XB)
 
 
+---
+## Haystack
+
+Node Name | Radio | Antenna | Battery | Solar | Freq | BW | SF | CR
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+TBD | — | — | — | — | — | — | — | —
+
+*Node/site photo coming soon.*
+
+*Coverage map coming soon.*
+
+
+---
+## Paine
+
+Node Name | Radio | Antenna | Battery | Solar | Freq | BW | SF | CR
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+TBD | — | — | — | — | — | — | — | —
+
+*Node/site photo coming soon.*
+
+*Coverage map coming soon.*
+
+
+---
+## Everett
+
+Node Name | Radio | Antenna | Battery | Solar | Freq | BW | SF | CR
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+TBD | — | — | — | — | — | — | — | —
+
+*Node/site photo coming soon.*
+
+*Coverage map coming soon.*
+
+
+---
+## Lookout
+
+Node Name | Radio | Antenna | Battery | Solar | Freq | BW | SF | CR
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+TBD | — | — | — | — | — | — | — | —
+
+*Node/site photo coming soon.*
+
+*Coverage map coming soon.*
+
+
+---
+## West Tiger
+
+Node Name | Radio | Antenna | Battery | Solar | Freq | BW | SF | CR
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+TBD | — | — | — | — | — | — | — | —
+
+*Node/site photo coming soon.*
+
+*Coverage map coming soon.*
+
+
+---
+## Ravens Roost
+
+Node Name | Radio | Antenna | Battery | Solar | Freq | BW | SF | CR
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+TBD | — | — | — | — | — | — | — | —
+
+*Node/site photo coming soon.*
+
+*Coverage map coming soon.*
+
+
+---
+## Mission Ridge
+
+Node Name | Radio | Antenna | Battery | Solar | Freq | BW | SF | CR
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+TBD | — | — | — | — | — | — | — | —
+
+*Node/site photo coming soon.*
+
+*Coverage map coming soon.*
