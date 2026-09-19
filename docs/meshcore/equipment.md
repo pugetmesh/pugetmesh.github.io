@@ -6,7 +6,7 @@ The following sections detail our builds and installations around the area. Addi
 
 Node Name | Radio | Antenna | Battery | Solar | Freq | BW | SF | CR
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-WW7STR/PugetMesh Cougar | Station G2 | Unknown 6?dbi | UPS | No | 910.525 MHz | 250 kHz | 11 | 5
+WW7STR/PugetMesh Cougar | Station G2 | Unknown 6?dbi | UPS | No | 910.525 MHz | 62.5 kHz | 11 | 5
 
 
 ![Cougar Mountain - Member Node](/media/meshcore/PugetMesh_CougarMountainNode.jpg)
