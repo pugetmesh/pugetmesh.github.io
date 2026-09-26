@@ -1,0 +1,7 @@
+INHERIT: mkdocs.yml
+plugins:
+  - search
+  - table-reader
+  - git-revision-date-localized:
+      enable_creation_date: false
+      type: date

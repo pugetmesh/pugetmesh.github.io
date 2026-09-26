@@ -3,3 +3,6 @@
 .venv
 venv/
 .vscode
+
+__pycache__/
+*.pyc

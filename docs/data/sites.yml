@@ -1,0 +1,144 @@
+# PugetMesh MeshCore site data — single source of truth for the Equipment page.
+# Edit this file to add or update sites; the Equipment page renders from it
+# automatically via hooks/render_sites.py. Order here = order on the page.
+#
+# Per site:
+#   name          site heading (also the page anchor: "Cougar Mountain" -> #cougar-mountain)
+#   location      human-readable location (optional; shown only if set)
+#   gps.lat/lon   coordinates (optional; shown next to location only if both set —
+#                 leave blank to keep a site's exact coordinates off the public page)
+#   node_name..cr equipment table columns (blank -> renders as "—")
+#   photo         node/site photo path (blank -> "photo coming soon")
+#   coverage_map  coverage map image path (blank -> "coverage map coming soon")
+#   coverage_link URL the coverage map image links to (e.g. heywhatsthat)
+#
+# Quote values like "No"/"Yes" so YAML doesn't read them as booleans.
+
+sites:
+  - name: Cougar Mountain
+    location: ""
+    gps: { lat: , lon: }
+    node_name: WW7STR/PugetMesh Cougar
+    radio: Station G2
+    antenna: Unknown 6?dbi
+    battery: UPS
+    solar: "No"
+    freq: 910.525 MHz
+    bw: 62.5 kHz
+    sf: 11
+    cr: 5
+    photo: /media/meshcore/PugetMesh_CougarMountainNode.jpg
+    coverage_map: /media/meshcore/PugetMesh_CougarMountainCoverage.png
+    coverage_link: https://www.heywhatsthat.com/?view=BSNMM8XB
+
+  - name: Haystack
+    location: ""
+    gps: { lat: , lon: }
+    node_name: ""
+    radio: ""
+    antenna: ""
+    battery: ""
+    solar: ""
+    freq: ""
+    bw: ""
+    sf: ""
+    cr: ""
+    photo: ""
+    coverage_map: ""
+    coverage_link: ""
+
+  - name: Paine
+    location: ""
+    gps: { lat: , lon: }
+    node_name: ""
+    radio: ""
+    antenna: ""
+    battery: ""
+    solar: ""
+    freq: ""
+    bw: ""
+    sf: ""
+    cr: ""
+    photo: ""
+    coverage_map: ""
+    coverage_link: ""
+
+  - name: Everett
+    location: ""
+    gps: { lat: , lon: }
+    node_name: ""
+    radio: ""
+    antenna: ""
+    battery: ""
+    solar: ""
+    freq: ""
+    bw: ""
+    sf: ""
+    cr: ""
+    photo: ""
+    coverage_map: ""
+    coverage_link: ""
+
+  - name: Lookout
+    location: ""
+    gps: { lat: , lon: }
+    node_name: ""
+    radio: ""
+    antenna: ""
+    battery: ""
+    solar: ""
+    freq: ""
+    bw: ""
+    sf: ""
+    cr: ""
+    photo: ""
+    coverage_map: ""
+    coverage_link: ""
+
+  - name: West Tiger
+    location: ""
+    gps: { lat: , lon: }
+    node_name: ""
+    radio: ""
+    antenna: ""
+    battery: ""
+    solar: ""
+    freq: ""
+    bw: ""
+    sf: ""
+    cr: ""
+    photo: ""
+    coverage_map: ""
+    coverage_link: ""
+
+  - name: Ravens Roost
+    location: ""
+    gps: { lat: , lon: }
+    node_name: ""
+    radio: ""
+    antenna: ""
+    battery: ""
+    solar: ""
+    freq: ""
+    bw: ""
+    sf: ""
+    cr: ""
+    photo: ""
+    coverage_map: ""
+    coverage_link: ""
+
+  - name: Mission Ridge
+    location: ""
+    gps: { lat: , lon: }
+    node_name: ""
+    radio: ""
+    antenna: ""
+    battery: ""
+    solar: ""
+    freq: ""
+    bw: ""
+    sf: ""
+    cr: ""
+    photo: ""
+    coverage_map: ""
+    coverage_link: ""

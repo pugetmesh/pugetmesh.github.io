@@ -1,7 +1,7 @@
 site_name: Puget Mesh
 site_author: Puget Mesh
 site_description: "Puget Mesh: Supporting Mesh networks in the Puget Sound Region"
-copyright: Â© Creative Commons Attribution-ShareAlike 4.0 International License
+copyright: © Creative Commons Attribution-ShareAlike 4.0 International License
 site_url: https://pugetmesh.org
 repo_url: https://github.com/pugetmesh/pugetmesh.github.io
 edit_uri: edit/main/docs/
@@ -14,9 +14,9 @@ nav:
     - RF Bridge & Backhaul: meshcore/rf_bridge.md
     - Backhaul Testing:
       - Overview: meshcore/backhaul/index.md
-      - Test1 â€” 500 kHz trial: meshcore/backhaul/test1.md
-      - Test2 â€” Spectrum test: meshcore/backhaul/test2.md
-      - Test3 â€” Freq/SF/CR: meshcore/backhaul/test3.md
+      - Test1 - 500 kHz trial: meshcore/backhaul/test1.md
+      - Test2 - Spectrum test: meshcore/backhaul/test2.md
+      - Test3 - Freq/SF/CR: meshcore/backhaul/test3.md
   - AREDN:
     - Overview: aredn/index.md
     - Getting Started: aredn/getting_started.md
