@@ -5,8 +5,13 @@
 # Per site:
 #   name          site heading (also the page anchor: "Cougar Mountain" -> #cougar-mountain)
 #   location      human-readable location (optional; shown only if set)
-#   gps.lat/lon   coordinates (optional; shown next to location only if both set —
-#                 leave blank to keep a site's exact coordinates off the public page)
+#   gps.lat/lon   antenna coordinates in DECIMAL DEGREES (WGS84), e.g. 47.53012, -122.12345
+#                 (west longitudes are negative; no degrees/minutes/seconds). Shown in
+#                 the table's GPS column rounded to 5 decimals (~1 m). Set both or neither.
+#   agl_m         antenna height above ground level, in METERS (number only, e.g. 9.1).
+#                 Shown in the table's AGL column as meters and feet. With gps, this is
+#                 the input for future coverage-map calculations. The build fails if
+#                 any of these is set but isn't a plain number in range.
 #   node_name..cr equipment table columns (blank -> renders as "—")
 #   photo         node/site photo path (blank -> "photo coming soon")
 #   coverage_map  coverage map image path (blank -> "coverage map coming soon")
@@ -18,6 +23,7 @@ sites:
   - name: Cougar Mountain
     location: ""
     gps: { lat: , lon: }
+    agl_m:
     node_name: WW7STR/PugetMesh Cougar
     radio: Station G2
     antenna: Unknown 6?dbi
@@ -34,6 +40,7 @@ sites:
   - name: Haystack
     location: ""
     gps: { lat: , lon: }
+    agl_m:
     node_name: ""
     radio: ""
     antenna: ""
@@ -50,6 +57,7 @@ sites:
   - name: Paine
     location: ""
     gps: { lat: , lon: }
+    agl_m:
     node_name: ""
     radio: ""
     antenna: ""
@@ -66,6 +74,7 @@ sites:
   - name: Everett
     location: ""
     gps: { lat: , lon: }
+    agl_m:
     node_name: ""
     radio: ""
     antenna: ""
@@ -82,6 +91,7 @@ sites:
   - name: Lookout
     location: ""
     gps: { lat: , lon: }
+    agl_m:
     node_name: ""
     radio: ""
     antenna: ""
@@ -98,6 +108,7 @@ sites:
   - name: West Tiger
     location: ""
     gps: { lat: , lon: }
+    agl_m:
     node_name: ""
     radio: ""
     antenna: ""
@@ -114,6 +125,7 @@ sites:
   - name: Ravens Roost
     location: ""
     gps: { lat: , lon: }
+    agl_m:
     node_name: ""
     radio: ""
     antenna: ""
@@ -130,6 +142,7 @@ sites:
   - name: Mission Ridge
     location: ""
     gps: { lat: , lon: }
+    agl_m:
     node_name: ""
     radio: ""
     antenna: ""
