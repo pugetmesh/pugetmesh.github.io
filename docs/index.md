@@ -30,14 +30,15 @@
 ---
 ## Current Events:
 
-
-### Test3 — Modified frequency, SF, and CR (Sep 21 - 22, 48 hours)
-
---8<-- "meshcore/backhaul/test3.md:body"
+*No events currently running — check back soon.*
 
 ---
 
 ## Past Events:
+### Test3 — Modified frequency, SF, and CR (Sep 21 - 22, 48 hours)
+
+--8<-- "meshcore/backhaul/test3.md:body"
+
 ### Test2 — 500 kHz MeshCore Spectrum Test (Sept 19–20, 2026)
 
 --8<-- "meshcore/backhaul/test2.md:body"
