@@ -25,7 +25,7 @@ sites:
     gps: { lat: , lon: }
     agl_m:
     node_name: WW7STR/PugetMesh Cougar
-    radio: Station G2
+    radio: Station G3
     antenna: Unknown 6?dbi
     battery: UPS
     solar: "No"
