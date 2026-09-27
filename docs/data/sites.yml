@@ -13,7 +13,8 @@
 #                 the input for future coverage-map calculations. The build fails if
 #                 any of these is set but isn't a plain number in range.
 #   node_name..cr equipment table columns (blank -> renders as "—")
-#   photo         node/site photo path (blank -> "photo coming soon")
+#   photo         node/site photo path, or a list of paths for several photos
+#                 (blank -> "photo coming soon")
 #   coverage_map  coverage map image path (blank -> "coverage map coming soon")
 #   coverage_link URL the coverage map image links to (e.g. heywhatsthat)
 #
@@ -46,10 +47,10 @@ sites:
     antenna: ""
     battery: ""
     solar: ""
-    freq: ""
-    bw: ""
-    sf: ""
-    cr: ""
+    freq: 910.525 MHz
+    bw: 62.5 kHz
+    sf: 11
+    cr: 5
     photo: ""
     coverage_map: ""
     coverage_link: ""
@@ -63,10 +64,10 @@ sites:
     antenna: ""
     battery: ""
     solar: ""
-    freq: ""
-    bw: ""
-    sf: ""
-    cr: ""
+    freq: 910.525 MHz
+    bw: 62.5 kHz
+    sf: 11
+    cr: 5
     photo: ""
     coverage_map: ""
     coverage_link: ""
@@ -80,10 +81,10 @@ sites:
     antenna: ""
     battery: ""
     solar: ""
-    freq: ""
-    bw: ""
-    sf: ""
-    cr: ""
+    freq: 910.525 MHz
+    bw: 62.5 kHz
+    sf: 11
+    cr: 5
     photo: ""
     coverage_map: ""
     coverage_link: ""
@@ -93,15 +94,18 @@ sites:
     gps: { lat: , lon: }
     agl_m:
     node_name: ""
-    radio: ""
+    radio: Station G2
     antenna: ""
     battery: ""
     solar: ""
-    freq: ""
-    bw: ""
-    sf: ""
-    cr: ""
-    photo: ""
+    freq: 910.525 MHz
+    bw: 62.5 kHz
+    sf: 11
+    cr: 5
+    photo:
+      - /media/meshcore/PugetMesh_LookoutAntenna.jpg
+      - /media/meshcore/PugetMesh_LookoutTower.jpg
+      - /media/meshcore/PugetMesh_LookoutNode.jpg
     coverage_map: ""
     coverage_link: ""
 
@@ -114,10 +118,10 @@ sites:
     antenna: ""
     battery: ""
     solar: ""
-    freq: ""
-    bw: ""
-    sf: ""
-    cr: ""
+    freq: 910.525 MHz
+    bw: 62.5 kHz
+    sf: 11
+    cr: 5
     photo: ""
     coverage_map: ""
     coverage_link: ""
@@ -127,15 +131,19 @@ sites:
     gps: { lat: , lon: }
     agl_m:
     node_name: ""
-    radio: ""
+    radio: Station G2
     antenna: ""
     battery: ""
     solar: ""
-    freq: ""
-    bw: ""
-    sf: ""
-    cr: ""
-    photo: ""
+    freq: 910.525 MHz
+    bw: 62.5 kHz
+    sf: 11
+    cr: 5
+    photo:
+      - /media/meshcore/PugetMesh_RavensRoostNode.jpg
+      - /media/meshcore/PugetMesh_RavensRoostTower.jpg
+      - /media/meshcore/PugetMesh_RavensRoostRadio.jpg
+      - /media/meshcore/PugetMesh_RavensRoostSite.jpg
     coverage_map: ""
     coverage_link: ""
 
@@ -144,14 +152,16 @@ sites:
     gps: { lat: , lon: }
     agl_m:
     node_name: ""
-    radio: ""
+    radio: Station G2
     antenna: ""
     battery: ""
     solar: ""
-    freq: ""
-    bw: ""
-    sf: ""
-    cr: ""
-    photo: ""
+    freq: 910.525 MHz
+    bw: 62.5 kHz
+    sf: 11
+    cr: 5
+    photo:
+      - /media/meshcore/PugetMesh_MissionRidgeSite.jpg
+      - /media/meshcore/PugetMesh_MissionRidgeNode.jpg
     coverage_map: ""
     coverage_link: ""

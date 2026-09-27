@@ -67,9 +67,12 @@ def _render_site(site):
         "",
     ]
 
-    photo = site.get("photo") or ""
-    if photo:
-        out += [f"![{name} node]({photo})", ""]
+    photos = site.get("photo") or []
+    if isinstance(photos, str):
+        photos = [photos]
+    if photos:
+        for photo in photos:
+            out += [f"![{name} node]({photo})", ""]
     else:
         out += ["*Node/site photo coming soon.*", ""]
 
