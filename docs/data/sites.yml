@@ -43,7 +43,7 @@ sites:
     gps: { lat: , lon: }
     agl_m:
     node_name: ""
-    radio: ""
+    radio: Station G2
     antenna: ""
     battery: ""
     solar: ""
@@ -51,7 +51,10 @@ sites:
     bw: 62.5 kHz
     sf: 11
     cr: 5
-    photo: ""
+    photo:
+      - /media/meshcore/PugetMesh_HaystackAntenna.jpg
+      - /media/meshcore/PugetMesh_HaystackSite.jpg
+      - /media/meshcore/PugetMesh_HaystackNode.jpg
     coverage_map: ""
     coverage_link: ""
 
