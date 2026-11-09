@@ -4,7 +4,12 @@
 
 [MeshCore](https://meshcore.io) is a multi platform system for enabling secure text based communications utilizing LoRa radio hardware. It can be used for Off-Grid Communication, Emergency Response & Disaster Recovery, Outdoor Activities, Tactical Security including law enforcement and private security and also IoT sensor networks.
 
-Here is an embed of the live map of nodes from [MeshCore Analyzer](https://analyzer.letsmesh.net/). Be sure to checkout the official [MeshCore Map](https://meshcore.io/map) as well.
+Here is an embed of the [PugetMesh live map](https://pugetmesh.waev.app/) of nodes. Be sure to checkout the official [MeshCore Map](https://meshcore.io/map) as well.
+<iframe src="https://pugetmesh.waev.app/embed/?surface=live-map&theme=dark&layers=nodes%2Ctopology%2Cwavefronts%2Clabels" title="PugetMesh live map" width="100%" height="560" style="border:0" loading="lazy" allow="fullscreen"></iframe>
+
+### MeshCore Analyzer
+
+Here is an embed of the live map of nodes from [MeshCore Analyzer](https://analyzer.letsmesh.net/).
 <iframe src="https://analyzer.letsmesh.net/map?lat=47.44794&long=-122.31028&zoom=8" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 MeshCore Analyzer tools:
