@@ -7,21 +7,6 @@
 Here is an embed of the [PugetMesh live map](https://pugetmesh.waev.app/) of nodes. Be sure to checkout the official [MeshCore Map](https://meshcore.io/map) as well.
 <iframe src="https://pugetmesh.waev.app/embed/?surface=live-map&theme=dark&layers=nodes%2Ctopology%2Cwavefronts%2Clabels" title="PugetMesh live map" width="100%" height="560" style="border:0" loading="lazy" allow="fullscreen"></iframe>
 
-### MeshCore Analyzer
-
-Here is an embed of the live map of nodes from [MeshCore Analyzer](https://analyzer.letsmesh.net/).
-<iframe src="https://analyzer.letsmesh.net/map?lat=47.44794&long=-122.31028&zoom=8" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-MeshCore Analyzer tools:
-
-- [Internet Map](https://analyzer.letsmesh.net/map?lat=47.44794&long=-122.31028&zoom=8)
-- [Realtime Packets](https://analyzer.letsmesh.net/packets?region=pnw)
-- [Nodes List](https://analyzer.letsmesh.net/nodes/repeaters?region=pnw)
-- [Repeater Prefix Utilization](https://analyzer.letsmesh.net/nodes/prefix-utilization?region=pnw)
-- [Channel Messages](https://analyzer.letsmesh.net/channels?region=pnw)
-- [Realtime Traces](https://analyzer.letsmesh.net/traces?region=pnw)
-- [Stats and Trends](https://analyzer.letsmesh.net/stats/overview)
-
 ## Joining
 
 Are you interested in joining the mesh? You will need to purchase a LoRa radio from the [MeshCore Supported Devices](https://meshcore.io) list. Outside of the mesh, we are most active on our public [Discord Server](https://discord.gg/ANvUg3AyZt) including a whole section for MeshCore discussions.
@@ -71,6 +56,21 @@ Topic | Key
 #seahawks | 4973d6ceb6c35a09894a83688847c8a3
 #sports | e8ee81f3aabf105d9ba2d2d4bd94fe4a
 #testing | cde5e82cf515647dcb547a79a4f065d1
+
+## MeshCore Analyzer
+
+Here is an embed of the live map of nodes from [MeshCore Analyzer](https://analyzer.letsmesh.net/).
+<iframe src="https://analyzer.letsmesh.net/map?lat=47.44794&long=-122.31028&zoom=8" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+MeshCore Analyzer tools:
+
+- [Internet Map](https://analyzer.letsmesh.net/map?lat=47.44794&long=-122.31028&zoom=8)
+- [Realtime Packets](https://analyzer.letsmesh.net/packets?region=pnw)
+- [Nodes List](https://analyzer.letsmesh.net/nodes/repeaters?region=pnw)
+- [Repeater Prefix Utilization](https://analyzer.letsmesh.net/nodes/prefix-utilization?region=pnw)
+- [Channel Messages](https://analyzer.letsmesh.net/channels?region=pnw)
+- [Realtime Traces](https://analyzer.letsmesh.net/traces?region=pnw)
+- [Stats and Trends](https://analyzer.letsmesh.net/stats/overview)
 
 ## Member Projects
 
